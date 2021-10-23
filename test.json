@@ -1,0 +1,9 @@
+{"players":[  
+  {"name":"Sané", "price": 550  ,"overall": "76", "sugBuy": 300, "sugSell": 500 },
+  {"name":"Hegazi", "price": 550  ,"overall": "76", "sugBuy": 300, "sugSell": 500 },
+  {"name":"Maxsø", "price": 500 ,"overall": "75", "sugBuy": 300, "sugSell": 500 },
+  {"name":"Scholz", "price": 500 ,"overall": "76", "sugBuy": 300, "sugSell": 500 },
+  {"name":"Deli", "price": 500 ,"overall": "75", "sugBuy": 300, "sugSell": 500 },
+  {"name":"Luyindama", "price": 500 ,"overall": "75", "sugBuy": 300, "sugSell": 500 },
+  {"name":"Toprak", "price": 500 ,"overall": "77", "sugBuy": 300, "sugSell": 500 }
+]}  

@@ -1,0 +1,19 @@
+1) Stworznie nodów na headerze:
+
+- text
+- input
+
+2) funkcje
+
+- sprawdz czy licytacja czy sprzedaz
+- sprawdz czy zaladowalo wszystko
+- stworz liste zawodnikow
+
+
+
+3) funkcje asynchroniczne
+
+- sprawdz czy jestes na kartcie wyszukiwanie/lub obserwowane lub transfery
+	- zamień kwote z inputów na ta z pola
+
+
