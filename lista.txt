@@ -1,0 +1,2 @@
+https://www.futbin.com/players?page=1&version=gold_nr
+https://www.futbin.com/players?page=1&position=CB&version=gold_nr

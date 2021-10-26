@@ -1,0 +1,18 @@
+Scraper FUTBINA:
+
+Opis działania:
+Program scrapuje wybraną stornę futbina w celu zbudowania listy zawodników w formie JSONa. Dodatkowo ustala sugerowaną cenę kupna i sprzedaży na podstawie zebranych danych.
+
+Funkcje:
+
+- pobierz strony do przeszukania z pliku testowego
+- ustal liczbę stron do przeszukania (na podstawie guzików nawigacji) -> int: liczba max
+- zbuduj listę linków do strony kazdego zawodnika
+- wejdz na kazda stronę 
+- pobierz dane odnośnie : nazwy na karcie, overall cena z PC (2 najnizsza) jezeli 0 lub > 9000 to pobierz usredniona z najnizszych z PS i XBOXa, jezeli dalej 0 to zwroc max dla karty dla sprzedazy i min x3 dla zakupu;
+- oblicz sugerowana cene zakupu
+- oblicz sugerowana cene sprzedazy
+- umiesc dane do slownika
+- skonwertuj slownik do JSONA w zalozonym formacie i zapisz do pliku
+
+
