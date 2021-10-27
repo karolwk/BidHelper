@@ -1,4 +1,5 @@
 import re
+import time
 import requests
 from bs4 import BeautifulSoup, element
 """
@@ -6,6 +7,8 @@ Scraping futbin for player data
 """
 
 pages = [] # List of pages to scrap
+domain = "https://www.futbin.com/players?page=" # domain for scraping
+players_dict = {'players': []} # dictionary with players ready for JSON conversion
 
 
 def printProgressBar (iteration, total, prefix = '', suffix = '', decimals = 1, length = 100, fill = '█', printEnd = "\r"):
@@ -38,7 +41,7 @@ def find_user(user, finders):
     return False
 
 
-def get_pages():
+def get_pages(pages):
     """ Gets list of pages to scrap and fills array"""    
     with open("lista.txt", "r") as my_file:
         for n in my_file:
@@ -56,8 +59,6 @@ def get_page_elements(url, tag, tag_class = ""):
         return soup.find_all(tag)
 
 
-
-
 def find_number_of_pages(url):
     """Returns max pages to search"""
     elements = get_page_elements(url, "a", "page-link") # Searching for tag "a" and class "page-link"
@@ -71,11 +72,40 @@ def find_number_of_pages(url):
     return (max(numbers))
 
 
+def build_list(tags, list_):
+    """Builds list of links to player profile"""
 
-get_pages()
-for link in pages:
-    print(find_number_of_pages(link))
-    
+    for link in tags:
+        try:
+            list_.append(link['href'])
+        except:
+            pass
+
+
+
+def main(pages):
+    my_list = []
+    for link in pages:
+        max_pages = find_number_of_pages(link)
+        for i in range(1, max_pages + 1):
+            endpoint = link.find("&")
+            actual_page = f'{domain}{i}{link[endpoint:]}' # construct link to visit
+            player_tags = get_page_elements(actual_page, "a", "player_name_players_table") # list of hrefs to each player page
+            time.sleep(2) # we need tu use timeout to not get 403's error
+            build_list(player_tags, my_list)
+            printProgressBar(i, max_pages, prefix = f'Progres w poszukiwaniu strony{link}:', suffix = 'wszystkich wpisów', length = 50)
+    print(len(my_list))
+
+
+
+
+        
+
+
+
+
+get_pages(pages)
+main(pages)
 
 
 
