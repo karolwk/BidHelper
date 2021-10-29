@@ -1,3 +1,4 @@
+from os import error
 import re
 import json
 import time
@@ -45,16 +46,10 @@ def get_pages(pages):
 
 
 def save_json(dict_):
-
-
     #Serializing to json
     json_object = json.dumps(dict_, indent = 4)
-
     with open("sample.json", "w") as outfile:
         outfile.write(json_object)
-
-  
-    
 
    
 def get_player_data(soup, tag, tag_class =""):
@@ -98,14 +93,17 @@ def append_list(tags, list_):
             pass
 
 
-def set_price(price):
+def set_price(response, price) -> int:
     """Sets deafult player price"""
     try:
-        new_price = int(price)
-        return new_price
+        price = int(price)
+        if (price == 0): # In case if price is 0 get the avarage from ps and xbox prices
+            price_ps = int(response.html.find('#ps-lowest-2', first=True).text.replace(",","")) 
+            price_xbox = int(response.html.find('#xbox-lowest-2', first=True).text.replace(",","")) 
+            price = (price_ps + price_xbox) // 2
+        return price
     except:
-        return 0
-
+        raise Exception(f"Something was wrong with response {response}")
 
 
 
@@ -124,43 +122,52 @@ def list_of_profiles(pages):
 
     return my_list
 
-def scrap_player_page(url):
+def scrap_player_page(url, times=3, seconds=10):
     """Scraps player page for important data and returs dictionary object"""
-    r = session.get(url)
-    r.html.render()
-   
     player = {
-        "name": "",
-        "price": 0,
-        "overall": 0,
-        "sugBuy": 0,
-        "sugSell": 0    
-    }
-
-    player["name"] = r.html.find('.pcdisplay-name', first=True).text
-    player["price"] = int(r.html.find('#pc-lowest-2', first=True).text.replace(",","")) 
-    if (player["price"] == 0): # In case if price is 0 get the avarage from ps and xbox prices
-        price_ps = int(r.html.find('#ps-lowest-2', first=True).text.replace(",","")) 
-        price_xbox = int(r.html.find('#xbox-lowest-2', first=True).text.replace(",","")) 
-        player["price"] = (price_ps + price_xbox) // 2
-    player["overall"] = r.html.find('.pcdisplay-rat', first=True).text
-    print(player)
-    return player
-
-
-get_pages(pages)
-scraped_pages = list_of_profiles(pages)
-num = 1
-for link in scraped_pages:
-    players_dict["players"].append(scrap_player_page(link))
-    printProgressBar(num, len(scraped_pages), prefix = f'Progres w budowaniu slownika:', suffix = 'wszystkich wpisów', length = 50)
-    num += 1
-save_json(players_dict)
+            "id": "",
+            "name": "",
+            "price": 0,
+            "overall": 0,
+            "sugBuy": 0,
+            "sugSell": 0    
+        }
+    for _ in range(times):
+        r = session.get(url)
+        if (r.status_code == 200):
+            r.html.render()
+            id = r.html.find('.player-ids.hidden')
+            player["id"] = id[0].attrs['data-player-id']
+            player["name"] = r.html.find('.pcdisplay-name', first=True).text    
+            player["overall"] = r.html.find('.pcdisplay-rat', first=True).text
+            price = r.html.find('#pc-lowest-2', first=True).text.replace(",","")
+            if price == "-": # Sometimes page don't load properly so we want to try again
+                time.sleep(seconds)
+                continue
+            player["price"] = set_price(r, price)
+            return player
+        time.sleep(seconds)
+    raise Exception(f'Sorry, there was an error with scraping page {url}') 
+    
 
 
 
+def main():
+    get_pages(pages)
+    scraped_pages = list_of_profiles(pages)
+    num = 1
+    for link in scraped_pages:
+        try:
+            players_dict["players"].append(scrap_player_page(link))
+        except Exception as e: print(e)
+
+        printProgressBar(num, len(scraped_pages), prefix = f'Progres w budowaniu slownika:', suffix = 'wszystkich wpisów', length = 50)
+        num += 1
+    save_json(players_dict)
 
 
+if __name__ == '__main__':
+    main()
 
 
 
