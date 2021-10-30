@@ -45,11 +45,18 @@ def get_pages(pages):
             pages.append(n.rstrip())
 
 
-def save_json(dict_):
+def save_json(dict_, file_name="players_data.json"):
     #Serializing to json
     json_object = json.dumps(dict_, indent = 4)
-    with open("sample.json", "w") as outfile:
+    with open(file_name, "w") as outfile:
         outfile.write(json_object)
+
+def open_json(file_name="players_data.json"):
+    """Open and convert JSON to dict"""
+    with open(file_name, "r") as infile:
+        dict_ = infile.read()
+    return json.loads(dict_)
+    
 
    
 def get_player_data(soup, tag, tag_class =""):
@@ -97,13 +104,42 @@ def set_price(response, price) -> int:
     """Sets deafult player price"""
     try:
         price = int(price)
-        if (price == 0): # In case if price is 0 get the avarage from ps and xbox prices
+        if (price == 0 or price == 10000): # In case if price is 0 or exacly 10000, get the avarage from ps and xbox prices
             price_ps = int(response.html.find('#ps-lowest-2', first=True).text.replace(",","")) 
             price_xbox = int(response.html.find('#xbox-lowest-2', first=True).text.replace(",","")) 
             price = (price_ps + price_xbox) // 2
         return price
     except:
         raise Exception(f"Something was wrong with response {response}")
+
+
+def set_buy_price(price) -> int:
+    """Sets suggested buing price"""
+    if price < 750:
+        return 400
+    elif price < 900:
+        return 500
+    elif price < 1500:
+        return 600
+    elif price < 2000:
+        return 750
+    return 950
+
+
+def set_sell_price(price) -> int:
+    """Sets suggested selling price"""
+    lng = len(str(price))
+    new_price = int((price - (price * .05)) // 100 * 100)
+    if lng < 4 or price == 1000: return new_price + 50
+    return new_price - 100
+
+
+def update_optimal_prices(dict_):
+    """Updates dictionaries prices for sell and buy"""    
+    for player in dict_['players']:
+        player['sugBuy'] = set_buy_price(player['price'])
+        player['sugSell'] = set_sell_price(player['price'])
+
 
 
 
@@ -163,6 +199,7 @@ def main():
 
         printProgressBar(num, len(scraped_pages), prefix = f'Progres w budowaniu slownika:', suffix = 'wszystkich wpisów', length = 50)
         num += 1
+    update_optimal_prices(players_dict)
     save_json(players_dict)
 
 
@@ -172,3 +209,4 @@ if __name__ == '__main__':
 
 
 
+    
