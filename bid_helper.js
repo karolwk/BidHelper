@@ -13,7 +13,7 @@ let bid;
 
 let header, navBarek, searchResult, actualPlayer, actualOveral;
 
-const url = 'http://localhost:8000/test.json'; // URL with JSON that contains player data, can be local or remote.
+const url = 'http://localhost:8000/players_data.json'; // URL with JSON that contains player data, can be local or remote.
 
 let players; // Object with players
 
@@ -66,7 +66,7 @@ function getOptimalPrice(player, overall, playersList, buy) {
 
     }
 
-    return Number(headerInput.value);
+    return Number(headerInput.value); // If player not found get value from header
 
 
 
@@ -79,7 +79,10 @@ function setCurrentCard() {
   actualOveral = document.querySelector('.tns-item.tns-slide-active').childNodes[0].childNodes[7].childNodes[1].childNodes[0].textContent // Overall na karcie
 
   bid = getOptimalPrice(actualPlayer, actualOveral, players, true);
+  // 
+  console.log(searchResult.textContent)
   changeInput(bid);
+
 
 }
 
