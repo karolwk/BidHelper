@@ -11,7 +11,7 @@ let goInterval, correctPrice; // Intervals
 
 let bid;
 
-let header, navBarek, searchResult, actualPlayer, actualOveral;
+let header, navBarek, actualPlayer, actualOveral;
 
 const url = 'http://localhost:8000/players_data.json'; // URL with JSON that contains player data, can be local or remote.
 
@@ -73,15 +73,32 @@ function getOptimalPrice(player, overall, playersList, buy) {
   }
 }
 
+function buyOrSell() {
+  // Checks headline to determine what to do
+  const bidButton = document.querySelector(".bidButton");
+  const searchResult = document.querySelector('.title');
+  // If we have a bidButton we defnitly have a auction
+  if (bidButton) { 
+    return True
+  };
+  if (searchResult.textContent === "LISTA TRANSFEROWA" || searchResult.textContent === "Obserwowane"){
+    return False
+  }
+
+}
+
 function setCurrentCard() {
   //  Set values from curent selected card and inserts price to input fields.
   actualPlayer = document.querySelector('.tns-item.tns-slide-active').childNodes[0].childNodes[4].textContent; // Nazwa na karcie
   actualOveral = document.querySelector('.tns-item.tns-slide-active').childNodes[0].childNodes[7].childNodes[1].childNodes[0].textContent // Overall na karcie
+  
+  let action = buyOrSell()
+  if ( action !== null){
+    bid = getOptimalPrice(actualPlayer, actualOveral, players, action);
+    changeInput(bid);
+  }
+ 
 
-  bid = getOptimalPrice(actualPlayer, actualOveral, players, true);
-  // 
-  console.log(searchResult.textContent)
-  changeInput(bid);
 
 
 }
@@ -172,14 +189,12 @@ setTimeout(function () {
 
     }
 
-
-
   });
 
 
   header = document.querySelector('.ut-fifa-header-view');
   navBarek = document.querySelector('.ut-navigation-bar-view');
-  searchResult = document.querySelector('.title');
+  
 
   header.append(" Wpisz cenę do zakupu/sprzedaży ");
   header.append(headerInput);
