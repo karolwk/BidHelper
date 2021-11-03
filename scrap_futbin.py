@@ -121,9 +121,7 @@ def set_buy_price(price) -> int:
         return 500
     elif price < 1500:
         return 600
-    elif price < 2000:
-        return 750
-    return 950
+    return 750
 
 
 def set_sell_price(price) -> int:
