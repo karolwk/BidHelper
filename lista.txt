@@ -1,1 +1,1 @@
-https://www.futbin.com/players?page=1&position=CB&version=gold_nr
+https://www.futbin.com/22/players?page=1&position=Defenders&version=gold_nr&sort=xbox_price&order=desc

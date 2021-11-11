@@ -1,1179 +1,1947 @@
 {
     "players": [
         {
-            "id": "527",
-            "name": "Romagnoli",
-            "price": 1300,
-            "overall": "82",
-            "sugBuy": 600,
-            "sugSell": 1100
+            "id": "574",
+            "name": "Ayling",
+            "price": 900,
+            "overall": "76",
+            "sugBuy": 550,
+            "sugSell": 850
         },
         {
-            "id": "818",
-            "name": "Blind",
-            "price": 1500,
-            "overall": "82",
-            "sugBuy": 750,
-            "sugSell": 1300
+            "id": "750",
+            "name": "Dier",
+            "price": 700,
+            "overall": "79",
+            "sugBuy": 450,
+            "sugSell": 750
         },
         {
-            "id": "1233",
-            "name": "Ra\u00fal Albiol",
-            "price": 1700,
-            "overall": "82",
-            "sugBuy": 750,
-            "sugSell": 1500
+            "id": "2187",
+            "name": "Cresswell",
+            "price": 750,
+            "overall": "79",
+            "sugBuy": 450,
+            "sugSell": 750
         },
         {
-            "id": "460",
-            "name": "Otamendi",
+            "id": "2233",
+            "name": "De Marcos",
+            "price": 750,
+            "overall": "77",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "5553",
+            "name": "Zald\u00faa",
+            "price": 700,
+            "overall": "77",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "5714",
+            "name": "Pablo Maffeo",
+            "price": 750,
+            "overall": "75",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "6171",
+            "name": "Lainer",
             "price": 1000,
-            "overall": "81",
-            "sugBuy": 600,
+            "overall": "80",
+            "sugBuy": 550,
             "sugSell": 950
         },
         {
-            "id": "786",
-            "name": "Jos\u00e9 Fonte",
-            "price": 2300,
-            "overall": "81",
-            "sugBuy": 750,
-            "sugSell": 2000
+            "id": "9077",
+            "name": "Pongra\u010di\u0107",
+            "price": 700,
+            "overall": "75",
+            "sugBuy": 450,
+            "sugSell": 750
         },
         {
-            "id": "3390",
-            "name": "Tarkowski",
-            "price": 1300,
-            "overall": "81",
-            "sugBuy": 600,
-            "sugSell": 1100
-        },
-        {
-            "id": "3608",
-            "name": "Zouma",
-            "price": 1100,
-            "overall": "81",
-            "sugBuy": 600,
-            "sugSell": 900
-        },
-        {
-            "id": "3647",
-            "name": "I\u00f1igo Mart\u00ednez",
-            "price": 1300,
-            "overall": "81",
-            "sugBuy": 600,
-            "sugSell": 1100
-        },
-        {
-            "id": "3659",
-            "name": "Orban",
-            "price": 1700,
-            "overall": "81",
-            "sugBuy": 750,
-            "sugSell": 1500
-        },
-        {
-            "id": "5381",
-            "name": "Djen\u00e9",
-            "price": 1400,
-            "overall": "81",
-            "sugBuy": 600,
-            "sugSell": 1200
-        },
-        {
-            "id": "6910",
-            "name": "Yeray",
-            "price": 1300,
-            "overall": "81",
-            "sugBuy": 600,
-            "sugSell": 1100
+            "id": "3284",
+            "name": "Schmid",
+            "price": 800,
+            "overall": "76",
+            "sugBuy": 450,
+            "sugSell": 750
         },
         {
             "id": "17493",
             "name": "Benatia",
-            "price": 1500,
+            "price": 700,
             "overall": "81",
-            "sugBuy": 750,
-            "sugSell": 1300
-        },
-        {
-            "id": "362",
-            "name": "Bastoni",
-            "price": 1500,
-            "overall": "80",
-            "sugBuy": 750,
-            "sugSell": 1300
-        },
-        {
-            "id": "402",
-            "name": "Christensen",
-            "price": 825,
-            "overall": "80",
-            "sugBuy": 500,
+            "sugBuy": 450,
             "sugSell": 750
         },
         {
-            "id": "1373",
-            "name": "Evans",
-            "price": 1200,
-            "overall": "80",
-            "sugBuy": 600,
-            "sugSell": 1000
-        },
-        {
-            "id": "1726",
-            "name": "God\u00edn",
-            "price": 1200,
-            "overall": "80",
-            "sugBuy": 600,
-            "sugSell": 1000
-        },
-        {
-            "id": "1811",
-            "name": "Ogbonna",
-            "price": 1100,
-            "overall": "80",
-            "sugBuy": 600,
-            "sugSell": 900
-        },
-        {
-            "id": "2024",
-            "name": "Rafael Tol\u00f3i",
-            "price": 1500,
-            "overall": "80",
-            "sugBuy": 750,
-            "sugSell": 1300
-        },
-        {
-            "id": "2800",
-            "name": "Bartra",
-            "price": 1100,
-            "overall": "80",
-            "sugBuy": 600,
-            "sugSell": 900
-        },
-        {
-            "id": "3200",
-            "name": "Mandi",
-            "price": 800,
-            "overall": "80",
-            "sugBuy": 500,
-            "sugSell": 750
-        },
-        {
-            "id": "3267",
-            "name": "Hinteregger",
-            "price": 1050,
-            "overall": "80",
-            "sugBuy": 600,
-            "sugSell": 800
-        },
-        {
-            "id": "3801",
-            "name": "Umtiti",
-            "price": 1000,
-            "overall": "80",
-            "sugBuy": 600,
+            "id": "3647",
+            "name": "I\u00f1igo Mart\u00ednez",
+            "price": 950,
+            "overall": "81",
+            "sugBuy": 550,
             "sugSell": 950
         },
         {
-            "id": "3814",
-            "name": "Feddal",
-            "price": 750,
+            "id": "429",
+            "name": "Meunier",
+            "price": 9500,
+            "overall": "77",
+            "sugBuy": 700,
+            "sugSell": 8900
+        },
+        {
+            "id": "448",
+            "name": "D'Ambrosio",
+            "price": 1500,
+            "overall": "79",
+            "sugBuy": 650,
+            "sugSell": 1300
+        },
+        {
+            "id": "1558",
+            "name": "Nacho Monreal",
+            "price": 700,
             "overall": "80",
-            "sugBuy": 500,
+            "sugBuy": 450,
             "sugSell": 750
         },
         {
-            "id": "3977",
-            "name": "Keane",
-            "price": 850,
-            "overall": "80",
-            "sugBuy": 500,
+            "id": "3847",
+            "name": "Chambers",
+            "price": 800,
+            "overall": "75",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "17482",
+            "name": "Moreno",
+            "price": 1200,
+            "overall": "77",
+            "sugBuy": 650,
+            "sugSell": 1000
+        },
+        {
+            "id": "767",
+            "name": "Emerson",
+            "price": 2200,
+            "overall": "79",
+            "sugBuy": 700,
+            "sugSell": 1900
+        },
+        {
+            "id": "5956",
+            "name": "Castagne",
+            "price": 900,
+            "overall": "79",
+            "sugBuy": 550,
             "sugSell": 850
         },
         {
             "id": "5772",
             "name": "Lindel\u00f6f",
-            "price": 1000,
-            "overall": "80",
-            "sugBuy": 600,
-            "sugSell": 950
-        },
-        {
-            "id": "7217",
-            "name": "Mancini",
-            "price": 1200,
-            "overall": "80",
-            "sugBuy": 600,
-            "sugSell": 1000
-        },
-        {
-            "id": "9648",
-            "name": "Unai N\u00fa\u00f1ez",
-            "price": 1200,
-            "overall": "80",
-            "sugBuy": 600,
-            "sugSell": 1000
-        },
-        {
-            "id": "448",
-            "name": "D'Ambrosio",
-            "price": 900,
-            "overall": "79",
-            "sugBuy": 600,
-            "sugSell": 850
-        },
-        {
-            "id": "501",
-            "name": "Mbemba",
-            "price": 625,
-            "overall": "79",
-            "sugBuy": 400,
-            "sugSell": 550
-        },
-        {
-            "id": "750",
-            "name": "Dier",
-            "price": 900,
-            "overall": "79",
-            "sugBuy": 600,
-            "sugSell": 850
-        },
-        {
-            "id": "964",
-            "name": "\u00c1lvaro",
-            "price": 1200,
-            "overall": "79",
-            "sugBuy": 600,
-            "sugSell": 1000
-        },
-        {
-            "id": "2191",
-            "name": "Mee",
-            "price": 700,
-            "overall": "79",
-            "sugBuy": 400,
-            "sugSell": 650
-        },
-        {
-            "id": "2815",
-            "name": "Germ\u00e1n",
-            "price": 950,
-            "overall": "79",
-            "sugBuy": 600,
-            "sugSell": 950
-        },
-        {
-            "id": "3295",
-            "name": "Coady",
-            "price": 700,
-            "overall": "79",
-            "sugBuy": 400,
-            "sugSell": 650
-        },
-        {
-            "id": "3396",
-            "name": "Boly",
-            "price": 700,
-            "overall": "79",
-            "sugBuy": 400,
-            "sugSell": 650
-        },
-        {
-            "id": "4065",
-            "name": "Djimsiti",
-            "price": 900,
-            "overall": "79",
-            "sugBuy": 600,
-            "sugSell": 850
-        },
-        {
-            "id": "5206",
-            "name": "Izzo",
-            "price": 950,
-            "overall": "79",
-            "sugBuy": 600,
-            "sugSell": 950
-        },
-        {
-            "id": "5600",
-            "name": "Mina",
-            "price": 650,
-            "overall": "79",
-            "sugBuy": 400,
-            "sugSell": 650
-        },
-        {
-            "id": "6682",
-            "name": "Aritz Elustondo",
-            "price": 700,
-            "overall": "79",
-            "sugBuy": 400,
-            "sugSell": 650
-        },
-        {
-            "id": "7757",
-            "name": "Gabriel",
-            "price": 900,
-            "overall": "79",
-            "sugBuy": 600,
-            "sugSell": 850
-        },
-        {
-            "id": "8048",
-            "name": "Zubeldia",
-            "price": 900,
-            "overall": "79",
-            "sugBuy": 600,
-            "sugSell": 850
-        },
-        {
-            "id": "8618",
-            "name": "Senesi",
-            "price": 1000,
-            "overall": "79",
-            "sugBuy": 600,
-            "sugSell": 950
-        },
-        {
-            "id": "11949",
-            "name": "Botman",
-            "price": 2000,
-            "overall": "79",
-            "sugBuy": 750,
-            "sugSell": 1800
-        },
-        {
-            "id": "427",
-            "name": "Zagadou",
-            "price": 1000,
-            "overall": "78",
-            "sugBuy": 600,
-            "sugSell": 950
-        },
-        {
-            "id": "850",
-            "name": "Gigot",
-            "price": 900,
-            "overall": "78",
-            "sugBuy": 600,
-            "sugSell": 850
-        },
-        {
-            "id": "968",
-            "name": "\u0106aleta-Car",
-            "price": 2400,
-            "overall": "78",
-            "sugBuy": 750,
-            "sugSell": 2100
-        },
-        {
-            "id": "1312",
-            "name": "Koscielny",
-            "price": 800,
-            "overall": "78",
-            "sugBuy": 500,
-            "sugSell": 750
-        },
-        {
-            "id": "1651",
-            "name": "Marcelo",
-            "price": 600,
-            "overall": "78",
-            "sugBuy": 400,
-            "sugSell": 550
-        },
-        {
-            "id": "2206",
-            "name": "Smalling",
-            "price": 700,
-            "overall": "78",
-            "sugBuy": 400,
-            "sugSell": 650
-        },
-        {
-            "id": "2558",
-            "name": "V\u00edctor Ruiz",
-            "price": 800,
-            "overall": "78",
-            "sugBuy": 500,
-            "sugSell": 750
-        },
-        {
-            "id": "2631",
-            "name": "Laguardia",
             "price": 850,
-            "overall": "78",
-            "sugBuy": 500,
+            "overall": "80",
+            "sugBuy": 450,
             "sugSell": 850
         },
         {
-            "id": "3044",
-            "name": "Dunk",
-            "price": 600,
-            "overall": "78",
-            "sugBuy": 400,
-            "sugSell": 550
-        },
-        {
-            "id": "3415",
-            "name": "Vestergaard",
-            "price": 700,
-            "overall": "78",
-            "sugBuy": 400,
-            "sugSell": 650
-        },
-        {
-            "id": "3568",
-            "name": "Brooks",
-            "price": 700,
-            "overall": "78",
-            "sugBuy": 400,
-            "sugSell": 650
-        },
-        {
-            "id": "4072",
-            "name": "Sa\u00efss",
+            "id": "2472",
+            "name": "Mario Gaspar",
             "price": 650,
-            "overall": "78",
-            "sugBuy": 400,
-            "sugSell": 650
-        },
-        {
-            "id": "4361",
-            "name": "Halstenberg",
-            "price": 800,
-            "overall": "78",
-            "sugBuy": 500,
+            "overall": "79",
+            "sugBuy": 350,
             "sugSell": 750
         },
         {
-            "id": "4664",
-            "name": "Mings",
-            "price": 600,
-            "overall": "78",
-            "sugBuy": 400,
-            "sugSell": 550
-        },
-        {
-            "id": "4808",
-            "name": "Tah",
-            "price": 900,
-            "overall": "78",
-            "sugBuy": 600,
-            "sugSell": 850
-        },
-        {
-            "id": "5955",
-            "name": "Friedrich",
+            "id": "749",
+            "name": "Doherty",
             "price": 800,
             "overall": "78",
-            "sugBuy": 500,
+            "sugBuy": 450,
             "sugSell": 750
         },
         {
-            "id": "6501",
-            "name": "David Garc\u00eda",
+            "id": "2024",
+            "name": "Rafael Tol\u00f3i",
+            "price": 800,
+            "overall": "80",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "2980",
+            "name": "Sergi Roberto",
+            "price": 1100,
+            "overall": "81",
+            "sugBuy": 550,
+            "sugSell": 900
+        },
+        {
+            "id": "4375",
+            "name": "Emerson",
             "price": 750,
             "overall": "78",
-            "sugBuy": 500,
+            "sugBuy": 450,
             "sugSell": 750
         },
         {
-            "id": "8004",
-            "name": "Le Normand",
+            "id": "3194",
+            "name": "C\u00e9dric",
+            "price": 750,
+            "overall": "76",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "3977",
+            "name": "Keane",
+            "price": 700,
+            "overall": "80",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "542",
+            "name": "Conti",
             "price": 800,
-            "overall": "78",
-            "sugBuy": 500,
+            "overall": "76",
+            "sugBuy": 450,
             "sugSell": 750
-        },
-        {
-            "id": "8273",
-            "name": "Domingos Duarte",
-            "price": 700,
-            "overall": "78",
-            "sugBuy": 400,
-            "sugSell": 650
-        },
-        {
-            "id": "11609",
-            "name": "Fofana",
-            "price": 700,
-            "overall": "78",
-            "sugBuy": 400,
-            "sugSell": 650
-        },
-        {
-            "id": "502",
-            "name": "Marcano",
-            "price": 700,
-            "overall": "77",
-            "sugBuy": 400,
-            "sugSell": 650
-        },
-        {
-            "id": "644",
-            "name": "Diego Llorente",
-            "price": 800,
-            "overall": "77",
-            "sugBuy": 500,
-            "sugSell": 750
-        },
-        {
-            "id": "648",
-            "name": "Koch",
-            "price": 675,
-            "overall": "77",
-            "sugBuy": 400,
-            "sugSell": 650
         },
         {
             "id": "694",
             "name": "Godfrey",
-            "price": 950,
+            "price": 850,
             "overall": "77",
-            "sugBuy": 600,
-            "sugSell": 950
-        },
-        {
-            "id": "1310",
-            "name": "Radu",
-            "price": 950,
-            "overall": "77",
-            "sugBuy": 600,
-            "sugSell": 950
-        },
-        {
-            "id": "1445",
-            "name": "Sokratis",
-            "price": 700,
-            "overall": "77",
-            "sugBuy": 400,
-            "sugSell": 650
-        },
-        {
-            "id": "1636",
-            "name": "Da Silva",
-            "price": 2700,
-            "overall": "77",
-            "sugBuy": 750,
-            "sugSell": 2400
-        },
-        {
-            "id": "1661",
-            "name": "K\u00fadela",
-            "price": 775,
-            "overall": "77",
-            "sugBuy": 500,
-            "sugSell": 750
-        },
-        {
-            "id": "1903",
-            "name": "Toprak",
-            "price": 650,
-            "overall": "77",
-            "sugBuy": 400,
-            "sugSell": 650
-        },
-        {
-            "id": "2168",
-            "name": "Aridane",
-            "price": 750,
-            "overall": "77",
-            "sugBuy": 500,
-            "sugSell": 750
-        },
-        {
-            "id": "2474",
-            "name": "Cabrera",
-            "price": 750,
-            "overall": "77",
-            "sugBuy": 500,
-            "sugSell": 750
-        },
-        {
-            "id": "2570",
-            "name": "Pezzella",
-            "price": 825,
-            "overall": "77",
-            "sugBuy": 500,
-            "sugSell": 750
-        },
-        {
-            "id": "2659",
-            "name": "Dawson",
-            "price": 650,
-            "overall": "77",
-            "sugBuy": 400,
-            "sugSell": 650
-        },
-        {
-            "id": "2769",
-            "name": "Lejeune",
-            "price": 800,
-            "overall": "77",
-            "sugBuy": 500,
-            "sugSell": 750
-        },
-        {
-            "id": "2990",
-            "name": "Goldson",
-            "price": 600,
-            "overall": "77",
-            "sugBuy": 400,
-            "sugSell": 550
-        },
-        {
-            "id": "3221",
-            "name": "Pablo",
-            "price": 750,
-            "overall": "77",
-            "sugBuy": 500,
-            "sugSell": 750
-        },
-        {
-            "id": "3228",
-            "name": "Murillo",
-            "price": 750,
-            "overall": "77",
-            "sugBuy": 500,
-            "sugSell": 750
-        },
-        {
-            "id": "3239",
-            "name": "David L\u00f3pez",
-            "price": 750,
-            "overall": "77",
-            "sugBuy": 500,
-            "sugSell": 750
-        },
-        {
-            "id": "3500",
-            "name": "Lascelles",
-            "price": 600,
-            "overall": "77",
-            "sugBuy": 400,
-            "sugSell": 550
-        },
-        {
-            "id": "3612",
-            "name": "Lu\u00eds Neto",
-            "price": 650,
-            "overall": "77",
-            "sugBuy": 400,
-            "sugSell": 650
-        },
-        {
-            "id": "3912",
-            "name": "Abdelhamid",
-            "price": 700,
-            "overall": "77",
-            "sugBuy": 400,
-            "sugSell": 650
-        },
-        {
-            "id": "4037",
-            "name": "Veltman",
-            "price": 600,
-            "overall": "77",
-            "sugBuy": 400,
-            "sugSell": 550
-        },
-        {
-            "id": "4473",
-            "name": "Rugani",
-            "price": 900,
-            "overall": "77",
-            "sugBuy": 600,
+            "sugBuy": 450,
             "sugSell": 850
         },
         {
-            "id": "5313",
-            "name": "R\u00faben Semedo",
-            "price": 600,
+            "id": "3234",
+            "name": "Ghoulam",
+            "price": 2500,
             "overall": "77",
-            "sugBuy": 400,
-            "sugSell": 550
+            "sugBuy": 700,
+            "sugSell": 2200
         },
         {
-            "id": "5344",
-            "name": "Palomino",
-            "price": 800,
-            "overall": "77",
-            "sugBuy": 500,
+            "id": "3608",
+            "name": "Zouma",
+            "price": 1300,
+            "overall": "81",
+            "sugBuy": 650,
+            "sugSell": 1100
+        },
+        {
+            "id": "3635",
+            "name": "Sarr",
+            "price": 750,
+            "overall": "75",
+            "sugBuy": 450,
             "sugSell": 750
-        },
-        {
-            "id": "5425",
-            "name": "Marip\u00e1n",
-            "price": 650,
-            "overall": "77",
-            "sugBuy": 400,
-            "sugSell": 650
-        },
-        {
-            "id": "6276",
-            "name": "Andersen",
-            "price": 600,
-            "overall": "77",
-            "sugBuy": 400,
-            "sugSell": 550
-        },
-        {
-            "id": "6439",
-            "name": "Holgate",
-            "price": 650,
-            "overall": "77",
-            "sugBuy": 400,
-            "sugSell": 650
-        },
-        {
-            "id": "6975",
-            "name": "Holding",
-            "price": 600,
-            "overall": "77",
-            "sugBuy": 400,
-            "sugSell": 550
-        },
-        {
-            "id": "7301",
-            "name": "Disasi",
-            "price": 650,
-            "overall": "77",
-            "sugBuy": 400,
-            "sugSell": 650
         },
         {
             "id": "7551",
             "name": "Diop",
             "price": 700,
             "overall": "77",
-            "sugBuy": 400,
-            "sugSell": 650
+            "sugBuy": 450,
+            "sugSell": 750
         },
         {
-            "id": "7642",
-            "name": "Uduokhai",
+            "id": "8802",
+            "name": "Foyth",
+            "price": 700,
+            "overall": "75",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "527",
+            "name": "Romagnoli",
+            "price": 1300,
+            "overall": "82",
+            "sugBuy": 650,
+            "sugSell": 1100
+        },
+        {
+            "id": "850",
+            "name": "Gigot",
+            "price": 950,
+            "overall": "78",
+            "sugBuy": 550,
+            "sugSell": 950
+        },
+        {
+            "id": "3390",
+            "name": "Tarkowski",
+            "price": 1200,
+            "overall": "81",
+            "sugBuy": 650,
+            "sugSell": 1000
+        },
+        {
+            "id": "3854",
+            "name": "De Sciglio",
+            "price": 750,
+            "overall": "76",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "6904",
+            "name": "Walker-Peters",
             "price": 750,
             "overall": "77",
-            "sugBuy": 500,
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "7605",
+            "name": "White",
+            "price": 2000,
+            "overall": "76",
+            "sugBuy": 700,
+            "sugSell": 1800
+        },
+        {
+            "id": "526",
+            "name": "Florenzi",
+            "price": 1200,
+            "overall": "81",
+            "sugBuy": 650,
+            "sugSell": 1000
+        },
+        {
+            "id": "4993",
+            "name": "Postigo",
+            "price": 550,
+            "overall": "75",
+            "sugBuy": 350,
+            "sugSell": 750
+        },
+        {
+            "id": "6910",
+            "name": "Yeray",
+            "price": 1100,
+            "overall": "81",
+            "sugBuy": 550,
+            "sugSell": 900
+        },
+        {
+            "id": "7217",
+            "name": "Mancini",
+            "price": 900,
+            "overall": "80",
+            "sugBuy": 550,
+            "sugSell": 850
+        },
+        {
+            "id": "8048",
+            "name": "Zubeldia",
+            "price": 800,
+            "overall": "79",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "9066",
+            "name": "Nacho Vidal",
+            "price": 700,
+            "overall": "75",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "362",
+            "name": "Bastoni",
+            "price": 1300,
+            "overall": "80",
+            "sugBuy": 650,
+            "sugSell": 1100
+        },
+        {
+            "id": "3273",
+            "name": "Piccini",
+            "price": 800,
+            "overall": "75",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "3528",
+            "name": "H\u00e9ctor Beller\u00edn",
+            "price": 800,
+            "overall": "78",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "4065",
+            "name": "Djimsiti",
+            "price": 650,
+            "overall": "79",
+            "sugBuy": 350,
+            "sugSell": 750
+        },
+        {
+            "id": "4330",
+            "name": "Jonny",
+            "price": 750,
+            "overall": "80",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "6651",
+            "name": "Gallardo",
+            "price": 900,
+            "overall": "75",
+            "sugBuy": 550,
+            "sugSell": 850
+        },
+        {
+            "id": "7022",
+            "name": "Henrichs",
+            "price": 1500,
+            "overall": "76",
+            "sugBuy": 650,
+            "sugSell": 1300
+        },
+        {
+            "id": "9471",
+            "name": "Murilo",
+            "price": 1500,
+            "overall": "75",
+            "sugBuy": 650,
+            "sugSell": 1300
+        },
+        {
+            "id": "460",
+            "name": "Otamendi",
+            "price": 950,
+            "overall": "81",
+            "sugBuy": 550,
+            "sugSell": 950
+        },
+        {
+            "id": "599",
+            "name": "Juan Bernat",
+            "price": 1200,
+            "overall": "82",
+            "sugBuy": 650,
+            "sugSell": 1000
+        },
+        {
+            "id": "648",
+            "name": "Koch",
+            "price": 700,
+            "overall": "77",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "2895",
+            "name": "Hanley",
+            "price": 750,
+            "overall": "75",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "2945",
+            "name": "Danilo",
+            "price": 1500,
+            "overall": "81",
+            "sugBuy": 650,
+            "sugSell": 1300
+        },
+        {
+            "id": "3200",
+            "name": "Mandi",
+            "price": 1000,
+            "overall": "80",
+            "sugBuy": 550,
+            "sugSell": 950
+        },
+        {
+            "id": "3221",
+            "name": "Pablo",
+            "price": 1500,
+            "overall": "77",
+            "sugBuy": 650,
+            "sugSell": 1300
+        },
+        {
+            "id": "3267",
+            "name": "Hinteregger",
+            "price": 650,
+            "overall": "80",
+            "sugBuy": 350,
+            "sugSell": 750
+        },
+        {
+            "id": "7757",
+            "name": "Gabriel",
+            "price": 1300,
+            "overall": "79",
+            "sugBuy": 650,
+            "sugSell": 1100
+        },
+        {
+            "id": "751",
+            "name": "Davies",
+            "price": 750,
+            "overall": "79",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "818",
+            "name": "Blind",
+            "price": 1100,
+            "overall": "82",
+            "sugBuy": 550,
+            "sugSell": 900
+        },
+        {
+            "id": "1233",
+            "name": "Ra\u00fal Albiol",
+            "price": 1100,
+            "overall": "82",
+            "sugBuy": 550,
+            "sugSell": 900
+        },
+        {
+            "id": "1636",
+            "name": "Da Silva",
+            "price": 650,
+            "overall": "77",
+            "sugBuy": 350,
+            "sugSell": 750
+        },
+        {
+            "id": "1938",
+            "name": "Rybus",
+            "price": 700,
+            "overall": "75",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "2040",
+            "name": "\u010cel\u016fstka",
+            "price": 1500,
+            "overall": "75",
+            "sugBuy": 650,
+            "sugSell": 1300
+        },
+        {
+            "id": "3181",
+            "name": "Sidib\u00e9",
+            "price": 1000,
+            "overall": "78",
+            "sugBuy": 550,
+            "sugSell": 950
+        },
+        {
+            "id": "3544",
+            "name": "Su\u00e1rez",
+            "price": 750,
+            "overall": "78",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "3659",
+            "name": "Orban",
+            "price": 1500,
+            "overall": "81",
+            "sugBuy": 650,
+            "sugSell": 1300
+        },
+        {
+            "id": "5706",
+            "name": "Gradit",
+            "price": 750,
+            "overall": "75",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "6682",
+            "name": "Aritz Elustondo",
+            "price": 850,
+            "overall": "79",
+            "sugBuy": 450,
+            "sugSell": 850
+        },
+        {
+            "id": "6683",
+            "name": "Kehrer",
+            "price": 700,
+            "overall": "76",
+            "sugBuy": 450,
             "sugSell": 750
         },
         {
             "id": "8190",
             "name": "Marc\u00e3o",
-            "price": 650,
+            "price": 1200,
             "overall": "77",
-            "sugBuy": 400,
-            "sugSell": 650
+            "sugBuy": 650,
+            "sugSell": 1000
+        },
+        {
+            "id": "8273",
+            "name": "Domingos Duarte",
+            "price": 1000,
+            "overall": "78",
+            "sugBuy": 550,
+            "sugSell": 950
+        },
+        {
+            "id": "10357",
+            "name": "Pedro Porro",
+            "price": 700,
+            "overall": "80",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "10595",
+            "name": "Coufal",
+            "price": 1400,
+            "overall": "80",
+            "sugBuy": 650,
+            "sugSell": 1200
+        },
+        {
+            "id": "11282",
+            "name": "Iba\u00f1ez",
+            "price": 1000,
+            "overall": "77",
+            "sugBuy": 550,
+            "sugSell": 950
+        },
+        {
+            "id": "11949",
+            "name": "Botman",
+            "price": 700,
+            "overall": "79",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "402",
+            "name": "Christensen",
+            "price": 700,
+            "overall": "80",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "489",
+            "name": "Kolarov",
+            "price": 1000,
+            "overall": "78",
+            "sugBuy": 550,
+            "sugSell": 950
+        },
+        {
+            "id": "2426",
+            "name": "J\u00fanior Cai\u00e7ara",
+            "price": 1100,
+            "overall": "75",
+            "sugBuy": 550,
+            "sugSell": 900
+        },
+        {
+            "id": "2545",
+            "name": "Rodr\u00edguez",
+            "price": 750,
+            "overall": "76",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "2815",
+            "name": "Germ\u00e1n",
+            "price": 700,
+            "overall": "79",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "4361",
+            "name": "Halstenberg",
+            "price": 700,
+            "overall": "78",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "4704",
+            "name": "Augustinsson",
+            "price": 650,
+            "overall": "76",
+            "sugBuy": 350,
+            "sugSell": 750
+        },
+        {
+            "id": "5006",
+            "name": "Goltz",
+            "price": 750,
+            "overall": "75",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "6282",
+            "name": "Ajer",
+            "price": 700,
+            "overall": "75",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "7347",
+            "name": "Matheus Reis",
+            "price": 700,
+            "overall": "75",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "10123",
+            "name": "Bornauw",
+            "price": 650,
+            "overall": "76",
+            "sugBuy": 350,
+            "sugSell": 750
+        },
+        {
+            "id": "786",
+            "name": "Jos\u00e9 Fonte",
+            "price": 1000,
+            "overall": "81",
+            "sugBuy": 550,
+            "sugSell": 950
+        },
+        {
+            "id": "1434",
+            "name": "Wass",
+            "price": 1200,
+            "overall": "80",
+            "sugBuy": 650,
+            "sugSell": 1000
+        },
+        {
+            "id": "1468",
+            "name": "Tomkins",
+            "price": 700,
+            "overall": "75",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "1726",
+            "name": "God\u00edn",
+            "price": 750,
+            "overall": "80",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "3445",
+            "name": "Knoche",
+            "price": 700,
+            "overall": "76",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "3520",
+            "name": "Kade\u0159\u00e1bek",
+            "price": 700,
+            "overall": "78",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "3578",
+            "name": "Bo\u0159il",
+            "price": 1200,
+            "overall": "77",
+            "sugBuy": 650,
+            "sugSell": 1000
+        },
+        {
+            "id": "3801",
+            "name": "Umtiti",
+            "price": 650,
+            "overall": "80",
+            "sugBuy": 350,
+            "sugSell": 750
+        },
+        {
+            "id": "5232",
+            "name": "Tete",
+            "price": 850,
+            "overall": "75",
+            "sugBuy": 450,
+            "sugSell": 850
+        },
+        {
+            "id": "6795",
+            "name": "Pavard",
+            "price": 1000,
+            "overall": "79",
+            "sugBuy": 550,
+            "sugSell": 950
+        },
+        {
+            "id": "8104",
+            "name": "Odriozola",
+            "price": 850,
+            "overall": "79",
+            "sugBuy": 450,
+            "sugSell": 850
+        },
+        {
+            "id": "8618",
+            "name": "Senesi",
+            "price": 700,
+            "overall": "79",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "8909",
+            "name": "Mu\u00f1oz",
+            "price": 650,
+            "overall": "76",
+            "sugBuy": 350,
+            "sugSell": 750
+        },
+        {
+            "id": "9506",
+            "name": "Calero",
+            "price": 700,
+            "overall": "75",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "427",
+            "name": "Zagadou",
+            "price": 400,
+            "overall": "78",
+            "sugBuy": 350,
+            "sugSell": 750
+        },
+        {
+            "id": "461",
+            "name": "Andr\u00e9 Almeida",
+            "price": 900,
+            "overall": "77",
+            "sugBuy": 550,
+            "sugSell": 850
+        },
+        {
+            "id": "472",
+            "name": "Ferro",
+            "price": 700,
+            "overall": "75",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "543",
+            "name": "Calabria",
+            "price": 800,
+            "overall": "78",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "1380",
+            "name": "Bertrand",
+            "price": 750,
+            "overall": "76",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "1537",
+            "name": "Lustenberger",
+            "price": 700,
+            "overall": "75",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "1639",
+            "name": "Fazio",
+            "price": 850,
+            "overall": "75",
+            "sugBuy": 450,
+            "sugSell": 850
+        },
+        {
+            "id": "2114",
+            "name": "Aziz",
+            "price": 700,
+            "overall": "75",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "2205",
+            "name": "Kiko Femen\u00eda",
+            "price": 1000,
+            "overall": "75",
+            "sugBuy": 550,
+            "sugSell": 950
+        },
+        {
+            "id": "2800",
+            "name": "Bartra",
+            "price": 1100,
+            "overall": "80",
+            "sugBuy": 550,
+            "sugSell": 900
+        },
+        {
+            "id": "2989",
+            "name": "Sergi G\u00f3mez",
+            "price": 700,
+            "overall": "76",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "2990",
+            "name": "Goldson",
+            "price": 1000,
+            "overall": "77",
+            "sugBuy": 550,
+            "sugSell": 950
+        },
+        {
+            "id": "3576",
+            "name": "Lala",
+            "price": 750,
+            "overall": "76",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "4117",
+            "name": "Jullien",
+            "price": 800,
+            "overall": "75",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "4279",
+            "name": "Sch\u00e4r",
+            "price": 700,
+            "overall": "76",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "4395",
+            "name": "Hysaj",
+            "price": 700,
+            "overall": "77",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "6141",
+            "name": "Aguilar",
+            "price": 750,
+            "overall": "79",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "6501",
+            "name": "David Garc\u00eda",
+            "price": 700,
+            "overall": "78",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "6611",
+            "name": "Boscagli",
+            "price": 700,
+            "overall": "76",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "9003",
+            "name": "Malacia",
+            "price": 700,
+            "overall": "77",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "9730",
+            "name": "Geertruida",
+            "price": 750,
+            "overall": "76",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "9803",
+            "name": "Dagba",
+            "price": 1000,
+            "overall": "76",
+            "sugBuy": 550,
+            "sugSell": 950
+        },
+        {
+            "id": "9879",
+            "name": "Mart\u00edn",
+            "price": 750,
+            "overall": "75",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "11609",
+            "name": "Fofana",
+            "price": 700,
+            "overall": "78",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "501",
+            "name": "Mbemba",
+            "price": 700,
+            "overall": "79",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "552",
+            "name": "Vrsaljko",
+            "price": 800,
+            "overall": "80",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "644",
+            "name": "Diego Llorente",
+            "price": 800,
+            "overall": "77",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "964",
+            "name": "\u00c1lvaro",
+            "price": 950,
+            "overall": "79",
+            "sugBuy": 550,
+            "sugSell": 950
+        },
+        {
+            "id": "1189",
+            "name": "Clichy",
+            "price": 700,
+            "overall": "76",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "1245",
+            "name": "Dante",
+            "price": 700,
+            "overall": "76",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "1373",
+            "name": "Evans",
+            "price": 700,
+            "overall": "80",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "1523",
+            "name": "Babin",
+            "price": 850,
+            "overall": "75",
+            "sugBuy": 450,
+            "sugSell": 850
+        },
+        {
+            "id": "1648",
+            "name": "Coleman",
+            "price": 700,
+            "overall": "78",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "1747",
+            "name": "Clark",
+            "price": 750,
+            "overall": "75",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "1811",
+            "name": "Ogbonna",
+            "price": 1500,
+            "overall": "80",
+            "sugBuy": 650,
+            "sugSell": 1300
+        },
+        {
+            "id": "1836",
+            "name": "Thomas",
+            "price": 650,
+            "overall": "76",
+            "sugBuy": 350,
+            "sugSell": 750
+        },
+        {
+            "id": "1957",
+            "name": "Navarro",
+            "price": 750,
+            "overall": "75",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "2245",
+            "name": "Kabasele",
+            "price": 700,
+            "overall": "75",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "2996",
+            "name": "Lowton",
+            "price": 800,
+            "overall": "76",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "3110",
+            "name": "Pulido",
+            "price": 750,
+            "overall": "75",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "3228",
+            "name": "Murillo",
+            "price": 1000,
+            "overall": "77",
+            "sugBuy": 550,
+            "sugSell": 950
+        },
+        {
+            "id": "3229",
+            "name": "Biraghi",
+            "price": 700,
+            "overall": "76",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "3251",
+            "name": "Bi\u010dak\u010di\u0107",
+            "price": 700,
+            "overall": "75",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "3415",
+            "name": "Vestergaard",
+            "price": 700,
+            "overall": "78",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "3814",
+            "name": "Feddal",
+            "price": 650,
+            "overall": "80",
+            "sugBuy": 350,
+            "sugSell": 750
+        },
+        {
+            "id": "4034",
+            "name": "Kola\u0161inac",
+            "price": 750,
+            "overall": "75",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "4072",
+            "name": "Sa\u00efss",
+            "price": 700,
+            "overall": "78",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "4100",
+            "name": "Sakai",
+            "price": 650,
+            "overall": "75",
+            "sugBuy": 350,
+            "sugSell": 750
+        },
+        {
+            "id": "4193",
+            "name": "D\u00f3ria",
+            "price": 650,
+            "overall": "76",
+            "sugBuy": 350,
+            "sugSell": 750
+        },
+        {
+            "id": "4650",
+            "name": "Bazoer",
+            "price": 750,
+            "overall": "76",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "5175",
+            "name": "Cornet",
+            "price": 900,
+            "overall": "75",
+            "sugBuy": 550,
+            "sugSell": 850
+        },
+        {
+            "id": "5210",
+            "name": "Widmer",
+            "price": 1500,
+            "overall": "75",
+            "sugBuy": 650,
+            "sugSell": 1300
+        },
+        {
+            "id": "5255",
+            "name": "Sinkgraven",
+            "price": 750,
+            "overall": "75",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "5299",
+            "name": "Dubois",
+            "price": 750,
+            "overall": "78",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "5356",
+            "name": "Sequeira",
+            "price": 700,
+            "overall": "78",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "5446",
+            "name": "Meling",
+            "price": 700,
+            "overall": "75",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "6270",
+            "name": "Bensebaini",
+            "price": 700,
+            "overall": "79",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "6810",
+            "name": "Cash",
+            "price": 1100,
+            "overall": "78",
+            "sugBuy": 550,
+            "sugSell": 900
+        },
+        {
+            "id": "6812",
+            "name": "Guilbert",
+            "price": 800,
+            "overall": "76",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "6999",
+            "name": "Ciss\u00e9",
+            "price": 800,
+            "overall": "76",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "8211",
+            "name": "Diogo Dalot",
+            "price": 900,
+            "overall": "76",
+            "sugBuy": 550,
+            "sugSell": 850
+        },
+        {
+            "id": "8448",
+            "name": "Konan",
+            "price": 700,
+            "overall": "75",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "8541",
+            "name": "Reinildo",
+            "price": 700,
+            "overall": "78",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "8979",
+            "name": "Estupi\u00f1\u00e1n",
+            "price": 650,
+            "overall": "79",
+            "sugBuy": 350,
+            "sugSell": 750
+        },
+        {
+            "id": "9460",
+            "name": "Aarons",
+            "price": 800,
+            "overall": "75",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "10433",
+            "name": "Simakan",
+            "price": 700,
+            "overall": "75",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "11166",
+            "name": "Carlos Neva",
+            "price": 650,
+            "overall": "78",
+            "sugBuy": 350,
+            "sugSell": 750
+        },
+        {
+            "id": "11777",
+            "name": "Iago",
+            "price": 1000,
+            "overall": "75",
+            "sugBuy": 550,
+            "sugSell": 950
+        },
+        {
+            "id": "13247",
+            "name": "Gon\u00e7alo In\u00e1cio",
+            "price": 1700,
+            "overall": "76",
+            "sugBuy": 700,
+            "sugSell": 1500
+        },
+        {
+            "id": "492",
+            "name": "Darmian",
+            "price": 700,
+            "overall": "78",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "506",
+            "name": "F\u00e1bio Cardoso",
+            "price": 700,
+            "overall": "75",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "649",
+            "name": "Junior Firpo",
+            "price": 850,
+            "overall": "78",
+            "sugBuy": 450,
+            "sugSell": 850
+        },
+        {
+            "id": "965",
+            "name": "Amavi",
+            "price": 800,
+            "overall": "77",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "1194",
+            "name": "Young",
+            "price": 700,
+            "overall": "78",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "1231",
+            "name": "Vermaelen",
+            "price": 600,
+            "overall": "75",
+            "sugBuy": 350,
+            "sugSell": 750
+        },
+        {
+            "id": "1246",
+            "name": "Debuchy",
+            "price": 650,
+            "overall": "75",
+            "sugBuy": 350,
+            "sugSell": 750
+        },
+        {
+            "id": "1375",
+            "name": "Rose",
+            "price": 750,
+            "overall": "75",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "1392",
+            "name": "De Silvestri",
+            "price": 700,
+            "overall": "76",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "1459",
+            "name": "Ansaldi",
+            "price": 750,
+            "overall": "78",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "1597",
+            "name": "Antunes",
+            "price": 700,
+            "overall": "75",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "2206",
+            "name": "Smalling",
+            "price": 850,
+            "overall": "78",
+            "sugBuy": 450,
+            "sugSell": 850
+        },
+        {
+            "id": "2251",
+            "name": "Clyne",
+            "price": 750,
+            "overall": "75",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "2570",
+            "name": "Pezzella",
+            "price": 600,
+            "overall": "77",
+            "sugBuy": 350,
+            "sugSell": 750
+        },
+        {
+            "id": "2629",
+            "name": "Jansson",
+            "price": 700,
+            "overall": "75",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "2631",
+            "name": "Laguardia",
+            "price": 700,
+            "overall": "78",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "2645",
+            "name": "Montoya",
+            "price": 800,
+            "overall": "75",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "3044",
+            "name": "Dunk",
+            "price": 750,
+            "overall": "78",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "3241",
+            "name": "Kurzawa",
+            "price": 800,
+            "overall": "76",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "3285",
+            "name": "Fern\u00e1ndez",
+            "price": 750,
+            "overall": "75",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "3295",
+            "name": "Coady",
+            "price": 750,
+            "overall": "79",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "3465",
+            "name": "Foulquier",
+            "price": 700,
+            "overall": "77",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "3568",
+            "name": "Brooks",
+            "price": 700,
+            "overall": "78",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "3598",
+            "name": "Arias",
+            "price": 750,
+            "overall": "79",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "3631",
+            "name": "G\u00fcnter",
+            "price": 750,
+            "overall": "75",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "3656",
+            "name": "M\u00e1rio Rui",
+            "price": 650,
+            "overall": "78",
+            "sugBuy": 350,
+            "sugSell": 750
+        },
+        {
+            "id": "3939",
+            "name": "March",
+            "price": 700,
+            "overall": "75",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "3980",
+            "name": "Webster",
+            "price": 850,
+            "overall": "75",
+            "sugBuy": 450,
+            "sugSell": 850
+        },
+        {
+            "id": "3993",
+            "name": "Mar\u00e7al",
+            "price": 850,
+            "overall": "75",
+            "sugBuy": 450,
+            "sugSell": 850
+        },
+        {
+            "id": "4284",
+            "name": "K\u0119dziora",
+            "price": 700,
+            "overall": "75",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "4356",
+            "name": "Hause",
+            "price": 700,
+            "overall": "75",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "4459",
+            "name": "Rub\u00e9n Pe\u00f1a",
+            "price": 750,
+            "overall": "79",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "4653",
+            "name": "O'Connell",
+            "price": 950,
+            "overall": "76",
+            "sugBuy": 550,
+            "sugSell": 950
+        },
+        {
+            "id": "5206",
+            "name": "Izzo",
+            "price": 800,
+            "overall": "79",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "5239",
+            "name": "Danilo",
+            "price": 750,
+            "overall": "75",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "5313",
+            "name": "R\u00faben Semedo",
+            "price": 700,
+            "overall": "77",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "5381",
+            "name": "Djen\u00e9",
+            "price": 850,
+            "overall": "81",
+            "sugBuy": 450,
+            "sugSell": 850
+        },
+        {
+            "id": "5406",
+            "name": "Targett",
+            "price": 750,
+            "overall": "77",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "5593",
+            "name": "Caldara",
+            "price": 700,
+            "overall": "76",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "5600",
+            "name": "Mina",
+            "price": 700,
+            "overall": "79",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "5608",
+            "name": "Bednarek",
+            "price": 700,
+            "overall": "76",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "5955",
+            "name": "Friedrich",
+            "price": 750,
+            "overall": "78",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "6157",
+            "name": "Posch",
+            "price": 1000,
+            "overall": "75",
+            "sugBuy": 550,
+            "sugSell": 950
+        },
+        {
+            "id": "6343",
+            "name": "\u00c7elik",
+            "price": 700,
+            "overall": "79",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "6466",
+            "name": "Roberts",
+            "price": 700,
+            "overall": "75",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "6975",
+            "name": "Holding",
+            "price": 700,
+            "overall": "77",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "6977",
+            "name": "Pedraza",
+            "price": 900,
+            "overall": "77",
+            "sugBuy": 550,
+            "sugSell": 850
+        },
+        {
+            "id": "7301",
+            "name": "Disasi",
+            "price": 750,
+            "overall": "77",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "7304",
+            "name": "Centonze",
+            "price": 700,
+            "overall": "77",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "7306",
+            "name": "Montes",
+            "price": 700,
+            "overall": "75",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "7477",
+            "name": "Perraud",
+            "price": 700,
+            "overall": "77",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "7488",
+            "name": "Lienhart",
+            "price": 700,
+            "overall": "76",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "7540",
+            "name": "Javi Gal\u00e1n",
+            "price": 700,
+            "overall": "75",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "7640",
+            "name": "Joaqu\u00edn",
+            "price": 700,
+            "overall": "75",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "7877",
+            "name": "Tomiyasu",
+            "price": 1900,
+            "overall": "75",
+            "sugBuy": 700,
+            "sugSell": 1700
+        },
+        {
+            "id": "7971",
+            "name": "Kristensen",
+            "price": 700,
+            "overall": "75",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "8435",
+            "name": "Bronn",
+            "price": 700,
+            "overall": "75",
+            "sugBuy": 450,
+            "sugSell": 750
         },
         {
             "id": "8593",
             "name": "Ndicka",
             "price": 700,
             "overall": "77",
-            "sugBuy": 400,
-            "sugSell": 650
-        },
-        {
-            "id": "9039",
-            "name": "Demiral",
-            "price": 750,
-            "overall": "77",
-            "sugBuy": 500,
+            "sugBuy": 450,
             "sugSell": 750
         },
         {
-            "id": "10543",
-            "name": "Rrahmani",
-            "price": 650,
-            "overall": "77",
-            "sugBuy": 400,
-            "sugSell": 650
+            "id": "8962",
+            "name": "Murillo",
+            "price": 600,
+            "overall": "75",
+            "sugBuy": 350,
+            "sugSell": 750
+        },
+        {
+            "id": "9648",
+            "name": "Unai N\u00fa\u00f1ez",
+            "price": 700,
+            "overall": "80",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "9792",
+            "name": "\u00c1lex Centelles",
+            "price": 950,
+            "overall": "75",
+            "sugBuy": 550,
+            "sugSell": 950
+        },
+        {
+            "id": "10042",
+            "name": "Magnani",
+            "price": 900,
+            "overall": "75",
+            "sugBuy": 550,
+            "sugSell": 850
+        },
+        {
+            "id": "10318",
+            "name": "Williams",
+            "price": 800,
+            "overall": "75",
+            "sugBuy": 450,
+            "sugSell": 750
         },
         {
             "id": "10739",
             "name": "Eric Garc\u00eda",
-            "price": 750,
-            "overall": "77",
-            "sugBuy": 500,
-            "sugSell": 750
-        },
-        {
-            "id": "11282",
-            "name": "Iba\u00f1ez",
-            "price": 850,
-            "overall": "77",
-            "sugBuy": 500,
-            "sugSell": 850
-        },
-        {
-            "id": "12281",
-            "name": "Araujo",
-            "price": 800,
-            "overall": "77",
-            "sugBuy": 500,
-            "sugSell": 750
-        },
-        {
-            "id": "17482",
-            "name": "Moreno",
-            "price": 750,
-            "overall": "77",
-            "sugBuy": 500,
-            "sugSell": 750
-        },
-        {
-            "id": "1245",
-            "name": "Dante",
-            "price": 600,
-            "overall": "76",
-            "sugBuy": 400,
-            "sugSell": 550
-        },
-        {
-            "id": "1456",
-            "name": "Criscito",
-            "price": 650,
-            "overall": "76",
-            "sugBuy": 400,
-            "sugSell": 650
-        },
-        {
-            "id": "1836",
-            "name": "Thomas",
             "price": 700,
-            "overall": "76",
-            "sugBuy": 400,
-            "sugSell": 650
+            "overall": "77",
+            "sugBuy": 450,
+            "sugSell": 750
         },
         {
-            "id": "2118",
-            "name": "Daniel Carri\u00e7o",
-            "price": 600,
-            "overall": "76",
-            "sugBuy": 400,
-            "sugSell": 550
+            "id": "12666",
+            "name": "Dorley",
+            "price": 700,
+            "overall": "75",
+            "sugBuy": 450,
+            "sugSell": 750
         },
         {
-            "id": "2393",
-            "name": "Ara\u00fajo",
+            "id": "13136",
+            "name": "Truffert",
+            "price": 700,
+            "overall": "75",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "19497",
+            "name": "Szalai",
+            "price": 700,
+            "overall": "75",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "19498",
+            "name": "Vi\u00f1a",
             "price": 750,
             "overall": "76",
-            "sugBuy": 500,
+            "sugBuy": 450,
             "sugSell": 750
         },
         {
-            "id": "2453",
-            "name": "Vogt",
+            "id": "404",
+            "name": "Alonso",
             "price": 700,
-            "overall": "76",
-            "sugBuy": 400,
-            "sugSell": 650
-        },
-        {
-            "id": "2855",
-            "name": "Murillo",
-            "price": 2600,
-            "overall": "76",
-            "sugBuy": 750,
-            "sugSell": 2300
-        },
-        {
-            "id": "2955",
-            "name": "Pallois",
-            "price": 650,
-            "overall": "76",
-            "sugBuy": 400,
-            "sugSell": 650
-        },
-        {
-            "id": "2989",
-            "name": "Sergi G\u00f3mez",
-            "price": 800,
-            "overall": "76",
-            "sugBuy": 500,
-            "sugSell": 750
-        },
-        {
-            "id": "3014",
-            "name": "Sviatchenko",
-            "price": 600,
-            "overall": "76",
-            "sugBuy": 400,
-            "sugSell": 550
-        },
-        {
-            "id": "3029",
-            "name": "Trauner",
-            "price": 800,
-            "overall": "76",
-            "sugBuy": 500,
-            "sugSell": 750
-        },
-        {
-            "id": "3126",
-            "name": "Pedro Mendes",
-            "price": 650,
-            "overall": "76",
-            "sugBuy": 400,
-            "sugSell": 650
-        },
-        {
-            "id": "3278",
-            "name": "San\u00e9",
-            "price": 550,
-            "overall": "76",
-            "sugBuy": 400,
-            "sugSell": 550
-        },
-        {
-            "id": "3327",
-            "name": "Gouweleeuw",
-            "price": 650,
-            "overall": "76",
-            "sugBuy": 400,
-            "sugSell": 650
-        },
-        {
-            "id": "3445",
-            "name": "Knoche",
-            "price": 600,
-            "overall": "76",
-            "sugBuy": 400,
-            "sugSell": 550
-        },
-        {
-            "id": "3947",
-            "name": "Pablo Mar\u00ed",
-            "price": 700,
-            "overall": "76",
-            "sugBuy": 400,
-            "sugSell": 650
-        },
-        {
-            "id": "4193",
-            "name": "D\u00f3ria",
-            "price": 750,
-            "overall": "76",
-            "sugBuy": 500,
-            "sugSell": 750
-        },
-        {
-            "id": "4279",
-            "name": "Sch\u00e4r",
-            "price": 650,
-            "overall": "76",
-            "sugBuy": 400,
-            "sugSell": 650
-        },
-        {
-            "id": "4362",
-            "name": "Paulo Oliveira",
-            "price": 600,
-            "overall": "76",
-            "sugBuy": 400,
-            "sugSell": 550
-        },
-        {
-            "id": "4625",
-            "name": "Mechele",
-            "price": 3000,
-            "overall": "76",
-            "sugBuy": 750,
-            "sugSell": 2700
-        },
-        {
-            "id": "4631",
-            "name": "Djiku",
-            "price": 650,
-            "overall": "76",
-            "sugBuy": 400,
-            "sugSell": 650
-        },
-        {
-            "id": "4645",
-            "name": "Scholz",
-            "price": 550,
-            "overall": "76",
-            "sugBuy": 400,
-            "sugSell": 550
-        },
-        {
-            "id": "4650",
-            "name": "Bazoer",
-            "price": 900,
-            "overall": "76",
-            "sugBuy": 600,
-            "sugSell": 850
-        },
-        {
-            "id": "4653",
-            "name": "O'Connell",
-            "price": 550,
-            "overall": "76",
-            "sugBuy": 400,
-            "sugSell": 550
-        },
-        {
-            "id": "5593",
-            "name": "Caldara",
-            "price": 800,
-            "overall": "76",
-            "sugBuy": 500,
-            "sugSell": 750
-        },
-        {
-            "id": "5608",
-            "name": "Bednarek",
-            "price": 650,
-            "overall": "76",
-            "sugBuy": 400,
-            "sugSell": 650
-        },
-        {
-            "id": "6315",
-            "name": "G\u00f3mez Andrade",
-            "price": 600,
-            "overall": "76",
-            "sugBuy": 400,
-            "sugSell": 550
-        },
-        {
-            "id": "6415",
-            "name": "Bustinza",
-            "price": 1000,
-            "overall": "76",
-            "sugBuy": 600,
-            "sugSell": 950
-        },
-        {
-            "id": "6611",
-            "name": "Boscagli",
-            "price": 1000,
-            "overall": "76",
-            "sugBuy": 600,
-            "sugSell": 950
-        },
-        {
-            "id": "6683",
-            "name": "Kehrer",
-            "price": 650,
-            "overall": "76",
-            "sugBuy": 400,
-            "sugSell": 650
-        },
-        {
-            "id": "6747",
-            "name": "Vitor Hugo",
-            "price": 650,
-            "overall": "76",
-            "sugBuy": 400,
-            "sugSell": 650
-        },
-        {
-            "id": "6999",
-            "name": "Ciss\u00e9",
-            "price": 600,
-            "overall": "76",
-            "sugBuy": 400,
-            "sugSell": 550
-        },
-        {
-            "id": "7052",
-            "name": "Mart\u00ednez Quarta",
-            "price": 650,
-            "overall": "76",
-            "sugBuy": 400,
-            "sugSell": 650
-        },
-        {
-            "id": "7488",
-            "name": "Lienhart",
-            "price": 650,
-            "overall": "76",
-            "sugBuy": 400,
-            "sugSell": 650
-        },
-        {
-            "id": "7605",
-            "name": "White",
-            "price": 600,
-            "overall": "76",
-            "sugBuy": 400,
-            "sugSell": 550
-        },
-        {
-            "id": "9028",
-            "name": "Milenkovi\u0107",
-            "price": 650,
-            "overall": "76",
-            "sugBuy": 400,
-            "sugSell": 650
-        },
-        {
-            "id": "9335",
-            "name": "Bremer",
-            "price": 650,
-            "overall": "76",
-            "sugBuy": 400,
-            "sugSell": 650
-        },
-        {
-            "id": "9420",
-            "name": "Kabak",
-            "price": 600,
-            "overall": "76",
-            "sugBuy": 400,
-            "sugSell": 550
-        },
-        {
-            "id": "10092",
-            "name": "Badiashile",
-            "price": 650,
-            "overall": "76",
-            "sugBuy": 400,
-            "sugSell": 650
-        },
-        {
-            "id": "10123",
-            "name": "Bornauw",
-            "price": 700,
-            "overall": "76",
-            "sugBuy": 400,
-            "sugSell": 650
-        },
-        {
-            "id": "10662",
-            "name": "Aguerd",
-            "price": 650,
-            "overall": "76",
-            "sugBuy": 400,
-            "sugSell": 650
-        },
-        {
-            "id": "10704",
-            "name": "Salisu",
-            "price": 650,
-            "overall": "76",
-            "sugBuy": 400,
-            "sugSell": 650
-        },
-        {
-            "id": "10822",
-            "name": "Todibo",
-            "price": 650,
-            "overall": "76",
-            "sugBuy": 400,
-            "sugSell": 650
-        },
-        {
-            "id": "13247",
-            "name": "Gon\u00e7alo In\u00e1cio",
-            "price": 825,
-            "overall": "76",
-            "sugBuy": 500,
+            "overall": "79",
+            "sugBuy": 450,
             "sugSell": 750
         },
         {
@@ -1181,367 +1949,735 @@
             "name": "Vallejo",
             "price": 750,
             "overall": "75",
-            "sugBuy": 500,
+            "sugBuy": 450,
             "sugSell": 750
         },
         {
-            "id": "472",
-            "name": "Ferro",
+            "id": "486",
+            "name": "Dimarco",
             "price": 700,
-            "overall": "75",
-            "sugBuy": 400,
-            "sugSell": 650
+            "overall": "76",
+            "sugBuy": 450,
+            "sugSell": 750
         },
         {
-            "id": "506",
-            "name": "F\u00e1bio Cardoso",
-            "price": 650,
+            "id": "502",
+            "name": "Marcano",
+            "price": 700,
+            "overall": "77",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "508",
+            "name": "Wendell",
+            "price": 700,
             "overall": "75",
-            "sugBuy": 400,
-            "sugSell": 650
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "968",
+            "name": "\u0106aleta-Car",
+            "price": 700,
+            "overall": "78",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "970",
+            "name": "Pol Lirola",
+            "price": 700,
+            "overall": "76",
+            "sugBuy": 450,
+            "sugSell": 750
         },
         {
             "id": "975",
             "name": "Saliba",
             "price": 650,
             "overall": "75",
-            "sugBuy": 400,
-            "sugSell": 650
+            "sugBuy": 350,
+            "sugSell": 750
         },
         {
-            "id": "1231",
-            "name": "Vermaelen",
-            "price": 600,
-            "overall": "75",
-            "sugBuy": 400,
-            "sugSell": 550
+            "id": "1310",
+            "name": "Radu",
+            "price": 850,
+            "overall": "77",
+            "sugBuy": 450,
+            "sugSell": 850
+        },
+        {
+            "id": "1312",
+            "name": "Koscielny",
+            "price": 700,
+            "overall": "78",
+            "sugBuy": 450,
+            "sugSell": 750
         },
         {
             "id": "1319",
             "name": "Cabral",
-            "price": 650,
-            "overall": "75",
-            "sugBuy": 400,
-            "sugSell": 650
-        },
-        {
-            "id": "1468",
-            "name": "Tomkins",
-            "price": 650,
-            "overall": "75",
-            "sugBuy": 400,
-            "sugSell": 650
-        },
-        {
-            "id": "1523",
-            "name": "Babin",
-            "price": 650,
-            "overall": "75",
-            "sugBuy": 400,
-            "sugSell": 650
-        },
-        {
-            "id": "1537",
-            "name": "Lustenberger",
             "price": 700,
             "overall": "75",
-            "sugBuy": 400,
-            "sugSell": 650
+            "sugBuy": 450,
+            "sugSell": 750
         },
         {
-            "id": "1639",
-            "name": "Fazio",
+            "id": "1445",
+            "name": "Sokratis",
             "price": 650,
-            "overall": "75",
-            "sugBuy": 400,
-            "sugSell": 650
+            "overall": "77",
+            "sugBuy": 350,
+            "sugSell": 750
         },
         {
-            "id": "1747",
-            "name": "Clark",
-            "price": 600,
-            "overall": "75",
-            "sugBuy": 400,
-            "sugSell": 550
+            "id": "1456",
+            "name": "Criscito",
+            "price": 7000,
+            "overall": "76",
+            "sugBuy": 700,
+            "sugSell": 6500
+        },
+        {
+            "id": "1651",
+            "name": "Marcelo",
+            "price": 750,
+            "overall": "78",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "1661",
+            "name": "K\u00fadela",
+            "price": 700,
+            "overall": "77",
+            "sugBuy": 450,
+            "sugSell": 750
         },
         {
             "id": "1756",
             "name": "Sakho",
             "price": 650,
             "overall": "75",
-            "sugBuy": 400,
-            "sugSell": 650
+            "sugBuy": 350,
+            "sugSell": 750
+        },
+        {
+            "id": "1763",
+            "name": "V\u00edctor D\u00edaz",
+            "price": 700,
+            "overall": "77",
+            "sugBuy": 450,
+            "sugSell": 750
         },
         {
             "id": "1879",
             "name": "Traor\u00e9",
-            "price": 650,
+            "price": 700,
             "overall": "75",
-            "sugBuy": 400,
-            "sugSell": 650
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "1903",
+            "name": "Toprak",
+            "price": 700,
+            "overall": "77",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "1930",
+            "name": "van Aanholt",
+            "price": 700,
+            "overall": "76",
+            "sugBuy": 450,
+            "sugSell": 750
         },
         {
             "id": "1974",
             "name": "Kiko Olivas",
-            "price": 1800,
+            "price": 650,
             "overall": "75",
-            "sugBuy": 750,
-            "sugSell": 1600
+            "sugBuy": 350,
+            "sugSell": 750
         },
         {
-            "id": "2040",
-            "name": "\u010cel\u016fstka",
-            "price": 600,
-            "overall": "75",
-            "sugBuy": 400,
-            "sugSell": 550
-        },
-        {
-            "id": "2114",
-            "name": "Aziz",
-            "price": 600,
-            "overall": "75",
-            "sugBuy": 400,
-            "sugSell": 550
+            "id": "2118",
+            "name": "Daniel Carri\u00e7o",
+            "price": 650,
+            "overall": "76",
+            "sugBuy": 350,
+            "sugSell": 750
         },
         {
             "id": "2160",
             "name": "H\u00fcbner",
             "price": 700,
             "overall": "75",
-            "sugBuy": 400,
-            "sugSell": 650
+            "sugBuy": 450,
+            "sugSell": 750
         },
         {
             "id": "2165",
             "name": "Cooper",
-            "price": 600,
+            "price": 950,
             "overall": "75",
-            "sugBuy": 400,
-            "sugSell": 550
+            "sugBuy": 550,
+            "sugSell": 950
         },
         {
-            "id": "2245",
-            "name": "Kabasele",
+            "id": "2168",
+            "name": "Aridane",
+            "price": 900,
+            "overall": "77",
+            "sugBuy": 550,
+            "sugSell": 850
+        },
+        {
+            "id": "2191",
+            "name": "Mee",
+            "price": 2000,
+            "overall": "79",
+            "sugBuy": 700,
+            "sugSell": 1800
+        },
+        {
+            "id": "2232",
+            "name": "Cote",
+            "price": 650,
+            "overall": "77",
+            "sugBuy": 350,
+            "sugSell": 750
+        },
+        {
+            "id": "2237",
+            "name": "Balenziaga",
             "price": 700,
             "overall": "75",
-            "sugBuy": 400,
-            "sugSell": 650
+            "sugBuy": 450,
+            "sugSell": 750
         },
         {
-            "id": "2629",
-            "name": "Jansson",
-            "price": 600,
+            "id": "2308",
+            "name": "Elabdellaoui",
+            "price": 650,
             "overall": "75",
-            "sugBuy": 400,
-            "sugSell": 550
+            "sugBuy": 350,
+            "sugSell": 750
+        },
+        {
+            "id": "2393",
+            "name": "Ara\u00fajo",
+            "price": 650,
+            "overall": "76",
+            "sugBuy": 350,
+            "sugSell": 750
+        },
+        {
+            "id": "2453",
+            "name": "Vogt",
+            "price": 650,
+            "overall": "76",
+            "sugBuy": 350,
+            "sugSell": 750
+        },
+        {
+            "id": "2474",
+            "name": "Cabrera",
+            "price": 850,
+            "overall": "77",
+            "sugBuy": 450,
+            "sugSell": 850
+        },
+        {
+            "id": "2511",
+            "name": "Jaume Costa",
+            "price": 700,
+            "overall": "78",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "2526",
+            "name": "Trimmel",
+            "price": 700,
+            "overall": "77",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "2558",
+            "name": "V\u00edctor Ruiz",
+            "price": 800,
+            "overall": "78",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "2632",
+            "name": "Hugo Mallo",
+            "price": 650,
+            "overall": "77",
+            "sugBuy": 350,
+            "sugSell": 750
+        },
+        {
+            "id": "2659",
+            "name": "Dawson",
+            "price": 700,
+            "overall": "77",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "2692",
+            "name": "Faraoni",
+            "price": 700,
+            "overall": "77",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "2699",
+            "name": "Tavernier",
+            "price": 1700,
+            "overall": "77",
+            "sugBuy": 700,
+            "sugSell": 1500
+        },
+        {
+            "id": "2769",
+            "name": "Lejeune",
+            "price": 900,
+            "overall": "77",
+            "sugBuy": 550,
+            "sugSell": 850
         },
         {
             "id": "2785",
             "name": "Burn",
-            "price": 650,
+            "price": 700,
             "overall": "75",
-            "sugBuy": 400,
-            "sugSell": 650
+            "sugBuy": 450,
+            "sugSell": 750
         },
         {
-            "id": "2895",
-            "name": "Hanley",
-            "price": 600,
-            "overall": "75",
-            "sugBuy": 400,
-            "sugSell": 550
+            "id": "2855",
+            "name": "Murillo",
+            "price": 700,
+            "overall": "76",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "2955",
+            "name": "Pallois",
+            "price": 650,
+            "overall": "76",
+            "sugBuy": 350,
+            "sugSell": 750
+        },
+        {
+            "id": "3014",
+            "name": "Sviatchenko",
+            "price": 700,
+            "overall": "76",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "3029",
+            "name": "Trauner",
+            "price": 700,
+            "overall": "76",
+            "sugBuy": 450,
+            "sugSell": 750
         },
         {
             "id": "3049",
             "name": "Arbilla",
-            "price": 675,
+            "price": 800,
             "overall": "75",
-            "sugBuy": 400,
-            "sugSell": 650
+            "sugBuy": 450,
+            "sugSell": 750
         },
         {
             "id": "3087",
             "name": "Soumaoro",
-            "price": 650,
+            "price": 700,
             "overall": "75",
-            "sugBuy": 400,
-            "sugSell": 650
-        },
-        {
-            "id": "3110",
-            "name": "Pulido",
-            "price": 750,
-            "overall": "75",
-            "sugBuy": 500,
+            "sugBuy": 450,
             "sugSell": 750
         },
         {
-            "id": "3251",
-            "name": "Bi\u010dak\u010di\u0107",
-            "price": 600,
-            "overall": "75",
-            "sugBuy": 400,
-            "sugSell": 550
+            "id": "3126",
+            "name": "Pedro Mendes",
+            "price": 650,
+            "overall": "76",
+            "sugBuy": 350,
+            "sugSell": 750
         },
         {
-            "id": "3285",
-            "name": "Fern\u00e1ndez",
-            "price": 650,
-            "overall": "75",
-            "sugBuy": 400,
-            "sugSell": 650
+            "id": "3239",
+            "name": "David L\u00f3pez",
+            "price": 800,
+            "overall": "77",
+            "sugBuy": 450,
+            "sugSell": 750
         },
         {
-            "id": "3631",
-            "name": "G\u00fcnter",
+            "id": "3278",
+            "name": "San\u00e9",
             "price": 650,
-            "overall": "75",
-            "sugBuy": 400,
-            "sugSell": 650
+            "overall": "76",
+            "sugBuy": 350,
+            "sugSell": 750
+        },
+        {
+            "id": "3327",
+            "name": "Gouweleeuw",
+            "price": 700,
+            "overall": "76",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "3353",
+            "name": "da Costa",
+            "price": 700,
+            "overall": "76",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "3396",
+            "name": "Boly",
+            "price": 800,
+            "overall": "79",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "3500",
+            "name": "Lascelles",
+            "price": 700,
+            "overall": "77",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "3527",
+            "name": "Delaine",
+            "price": 700,
+            "overall": "76",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "3678",
+            "name": "Taylor",
+            "price": 700,
+            "overall": "76",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "3697",
+            "name": "Clerc",
+            "price": 700,
+            "overall": "77",
+            "sugBuy": 450,
+            "sugSell": 750
         },
         {
             "id": "3706",
             "name": "Egan",
-            "price": 850,
-            "overall": "75",
-            "sugBuy": 500,
-            "sugSell": 850
-        },
-        {
-            "id": "3980",
-            "name": "Webster",
             "price": 650,
             "overall": "75",
-            "sugBuy": 400,
-            "sugSell": 650
+            "sugBuy": 350,
+            "sugSell": 750
+        },
+        {
+            "id": "3762",
+            "name": "Nov\u00e1k",
+            "price": 700,
+            "overall": "75",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "3790",
+            "name": "Alberto Moreno",
+            "price": 700,
+            "overall": "76",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "3841",
+            "name": "Ristovski",
+            "price": 650,
+            "overall": "75",
+            "sugBuy": 350,
+            "sugSell": 750
+        },
+        {
+            "id": "3912",
+            "name": "Abdelhamid",
+            "price": 700,
+            "overall": "77",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "3947",
+            "name": "Pablo Mar\u00ed",
+            "price": 750,
+            "overall": "76",
+            "sugBuy": 450,
+            "sugSell": 750
         },
         {
             "id": "4001",
             "name": "Ayhan",
-            "price": 600,
+            "price": 1000,
             "overall": "75",
-            "sugBuy": 400,
-            "sugSell": 550
+            "sugBuy": 550,
+            "sugSell": 950
         },
         {
-            "id": "4117",
-            "name": "Jullien",
-            "price": 600,
-            "overall": "75",
-            "sugBuy": 400,
-            "sugSell": 550
+            "id": "4037",
+            "name": "Veltman",
+            "price": 700,
+            "overall": "77",
+            "sugBuy": 450,
+            "sugSell": 750
         },
         {
-            "id": "4356",
-            "name": "Hause",
-            "price": 650,
+            "id": "4099",
+            "name": "Foket",
+            "price": 700,
+            "overall": "76",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "4187",
+            "name": "K\u00e9vin Rodrigues",
+            "price": 700,
             "overall": "75",
-            "sugBuy": 400,
-            "sugSell": 650
+            "sugBuy": 450,
+            "sugSell": 750
         },
         {
             "id": "4359",
             "name": "Hegazi",
-            "price": 600,
+            "price": 650,
             "overall": "75",
-            "sugBuy": 400,
-            "sugSell": 550
+            "sugBuy": 350,
+            "sugSell": 750
+        },
+        {
+            "id": "4362",
+            "name": "Paulo Oliveira",
+            "price": 700,
+            "overall": "76",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "4473",
+            "name": "Rugani",
+            "price": 700,
+            "overall": "77",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "4625",
+            "name": "Mechele",
+            "price": 700,
+            "overall": "76",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "4629",
+            "name": "Ricardo Esgaio",
+            "price": 700,
+            "overall": "78",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "4631",
+            "name": "Djiku",
+            "price": 700,
+            "overall": "76",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "4645",
+            "name": "Scholz",
+            "price": 650,
+            "overall": "76",
+            "sugBuy": 350,
+            "sugSell": 750
         },
         {
             "id": "4652",
             "name": "Maxs\u00f8",
-            "price": 600,
+            "price": 700,
             "overall": "75",
-            "sugBuy": 400,
-            "sugSell": 550
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "4664",
+            "name": "Mings",
+            "price": 700,
+            "overall": "78",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "4685",
+            "name": "Masuaku",
+            "price": 700,
+            "overall": "77",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "4808",
+            "name": "Tah",
+            "price": 800,
+            "overall": "78",
+            "sugBuy": 450,
+            "sugSell": 750
         },
         {
             "id": "4816",
             "name": "Dawidowicz",
-            "price": 600,
+            "price": 700,
             "overall": "75",
-            "sugBuy": 400,
-            "sugSell": 550
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "4906",
+            "name": "Sobol",
+            "price": 700,
+            "overall": "75",
+            "sugBuy": 450,
+            "sugSell": 750
         },
         {
             "id": "4936",
             "name": "Tesillo",
             "price": 650,
             "overall": "75",
-            "sugBuy": 400,
-            "sugSell": 650
-        },
-        {
-            "id": "4993",
-            "name": "Postigo",
-            "price": 800,
-            "overall": "75",
-            "sugBuy": 500,
+            "sugBuy": 350,
             "sugSell": 750
         },
         {
-            "id": "5006",
-            "name": "Goltz",
-            "price": 600,
-            "overall": "75",
-            "sugBuy": 400,
-            "sugSell": 550
+            "id": "5207",
+            "name": "Zappacosta",
+            "price": 700,
+            "overall": "79",
+            "sugBuy": 450,
+            "sugSell": 750
         },
         {
-            "id": "5312",
-            "name": "Hoedt",
-            "price": 600,
-            "overall": "75",
-            "sugBuy": 400,
-            "sugSell": 550
+            "id": "5344",
+            "name": "Palomino",
+            "price": 700,
+            "overall": "77",
+            "sugBuy": 450,
+            "sugSell": 750
         },
         {
             "id": "5349",
             "name": "Zainadine",
-            "price": 600,
+            "price": 700,
             "overall": "75",
-            "sugBuy": 400,
-            "sugSell": 550
+            "sugBuy": 450,
+            "sugSell": 750
         },
         {
             "id": "5423",
             "name": "Vegas",
-            "price": 650,
+            "price": 3700,
             "overall": "75",
-            "sugBuy": 400,
-            "sugSell": 650
+            "sugBuy": 700,
+            "sugSell": 3400
         },
         {
-            "id": "5706",
-            "name": "Gradit",
-            "price": 650,
-            "overall": "75",
-            "sugBuy": 400,
-            "sugSell": 650
+            "id": "5425",
+            "name": "Marip\u00e1n",
+            "price": 700,
+            "overall": "77",
+            "sugBuy": 450,
+            "sugSell": 750
         },
         {
             "id": "5727",
             "name": "Ingason",
-            "price": 550,
-            "overall": "75",
-            "sugBuy": 400,
-            "sugSell": 550
-        },
-        {
-            "id": "6157",
-            "name": "Posch",
             "price": 650,
             "overall": "75",
-            "sugBuy": 400,
-            "sugSell": 650
+            "sugBuy": 350,
+            "sugSell": 750
         },
         {
-            "id": "6282",
-            "name": "Ajer",
+            "id": "5808",
+            "name": "Olaza",
+            "price": 700,
+            "overall": "78",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "6132",
+            "name": "Sambia",
             "price": 800,
             "overall": "75",
-            "sugBuy": 500,
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "6276",
+            "name": "Andersen",
+            "price": 950,
+            "overall": "77",
+            "sugBuy": 550,
+            "sugSell": 950
+        },
+        {
+            "id": "6315",
+            "name": "G\u00f3mez Andrade",
+            "price": 650,
+            "overall": "76",
+            "sugBuy": 350,
+            "sugSell": 750
+        },
+        {
+            "id": "6415",
+            "name": "Bustinza",
+            "price": 650,
+            "overall": "76",
+            "sugBuy": 350,
+            "sugSell": 750
+        },
+        {
+            "id": "6439",
+            "name": "Holgate",
+            "price": 700,
+            "overall": "77",
+            "sugBuy": 450,
             "sugSell": 750
         },
         {
@@ -1549,192 +2685,360 @@
             "name": "Andrei Girotto",
             "price": 650,
             "overall": "75",
-            "sugBuy": 400,
-            "sugSell": 650
+            "sugBuy": 350,
+            "sugSell": 750
+        },
+        {
+            "id": "6747",
+            "name": "Vitor Hugo",
+            "price": 1000,
+            "overall": "76",
+            "sugBuy": 550,
+            "sugSell": 950
+        },
+        {
+            "id": "6751",
+            "name": "Rub\u00e9n Duarte",
+            "price": 700,
+            "overall": "77",
+            "sugBuy": 450,
+            "sugSell": 750
         },
         {
             "id": "6963",
             "name": "Deli",
-            "price": 650,
+            "price": 700,
             "overall": "75",
-            "sugBuy": 400,
-            "sugSell": 650
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "7052",
+            "name": "Mart\u00ednez Quarta",
+            "price": 750,
+            "overall": "76",
+            "sugBuy": 450,
+            "sugSell": 750
         },
         {
             "id": "7057",
             "name": "Moukoudi",
-            "price": 600,
+            "price": 700,
             "overall": "75",
-            "sugBuy": 400,
-            "sugSell": 550
+            "sugBuy": 450,
+            "sugSell": 750
         },
         {
             "id": "7201",
             "name": "Anton",
-            "price": 650,
+            "price": 700,
             "overall": "75",
-            "sugBuy": 400,
-            "sugSell": 650
+            "sugBuy": 450,
+            "sugSell": 750
         },
         {
             "id": "7226",
             "name": "Fali",
-            "price": 800,
-            "overall": "75",
-            "sugBuy": 500,
-            "sugSell": 750
-        },
-        {
-            "id": "7306",
-            "name": "Montes",
             "price": 650,
             "overall": "75",
-            "sugBuy": 400,
-            "sugSell": 650
-        },
-        {
-            "id": "7640",
-            "name": "Joaqu\u00edn",
-            "price": 750,
-            "overall": "75",
-            "sugBuy": 500,
+            "sugBuy": 350,
             "sugSell": 750
         },
         {
-            "id": "7877",
-            "name": "Tomiyasu",
-            "price": 600,
-            "overall": "75",
-            "sugBuy": 400,
-            "sugSell": 550
+            "id": "7530",
+            "name": "Justin",
+            "price": 700,
+            "overall": "77",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "7642",
+            "name": "Uduokhai",
+            "price": 800,
+            "overall": "77",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "7709",
+            "name": "Caio Henrique",
+            "price": 800,
+            "overall": "77",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "8004",
+            "name": "Le Normand",
+            "price": 700,
+            "overall": "78",
+            "sugBuy": 450,
+            "sugSell": 750
         },
         {
             "id": "8141",
             "name": "Abram",
             "price": 750,
             "overall": "75",
-            "sugBuy": 500,
+            "sugBuy": 450,
             "sugSell": 750
         },
         {
-            "id": "8435",
-            "name": "Bronn",
-            "price": 600,
-            "overall": "75",
-            "sugBuy": 400,
-            "sugSell": 550
+            "id": "8248",
+            "name": "Rosier",
+            "price": 800,
+            "overall": "77",
+            "sugBuy": 450,
+            "sugSell": 750
         },
         {
-            "id": "8802",
-            "name": "Foyth",
-            "price": 800,
+            "id": "8299",
+            "name": "Pedro Rebocho",
+            "price": 650,
             "overall": "75",
-            "sugBuy": 500,
+            "sugBuy": 350,
             "sugSell": 750
         },
         {
             "id": "8888",
             "name": "Luyindama",
-            "price": 750,
+            "price": 700,
             "overall": "75",
-            "sugBuy": 500,
+            "sugBuy": 450,
             "sugSell": 750
         },
         {
-            "id": "9077",
-            "name": "Pongra\u010di\u0107",
-            "price": 1100,
-            "overall": "75",
-            "sugBuy": 600,
-            "sugSell": 900
-        },
-        {
-            "id": "9471",
-            "name": "Murilo",
-            "price": 950,
-            "overall": "75",
-            "sugBuy": 600,
-            "sugSell": 950
-        },
-        {
-            "id": "9506",
-            "name": "Calero",
-            "price": 750,
-            "overall": "75",
-            "sugBuy": 500,
+            "id": "9028",
+            "name": "Milenkovi\u0107",
+            "price": 700,
+            "overall": "76",
+            "sugBuy": 450,
             "sugSell": 750
         },
         {
-            "id": "10042",
-            "name": "Magnani",
-            "price": 850,
-            "overall": "75",
-            "sugBuy": 500,
+            "id": "9039",
+            "name": "Demiral",
+            "price": 750,
+            "overall": "77",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "9335",
+            "name": "Bremer",
+            "price": 700,
+            "overall": "76",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "9420",
+            "name": "Kabak",
+            "price": 900,
+            "overall": "76",
+            "sugBuy": 550,
             "sugSell": 850
         },
         {
-            "id": "10433",
-            "name": "Simakan",
+            "id": "9606",
+            "name": "Olivera",
+            "price": 700,
+            "overall": "76",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "9653",
+            "name": "Miranda",
+            "price": 700,
+            "overall": "76",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "9700",
+            "name": "Gorosabel",
             "price": 750,
+            "overall": "77",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "9849",
+            "name": "Bari\u0161i\u0107",
+            "price": 800,
             "overall": "75",
-            "sugBuy": 500,
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "10092",
+            "name": "Badiashile",
+            "price": 700,
+            "overall": "76",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "10310",
+            "name": "Sosa",
+            "price": 650,
+            "overall": "77",
+            "sugBuy": 350,
             "sugSell": 750
         },
         {
             "id": "10527",
             "name": "P\u00e9rez",
-            "price": 650,
+            "price": 700,
             "overall": "75",
-            "sugBuy": 400,
-            "sugSell": 650
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "10543",
+            "name": "Rrahmani",
+            "price": 800,
+            "overall": "77",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "10571",
+            "name": "Mykolenko",
+            "price": 700,
+            "overall": "76",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "10662",
+            "name": "Aguerd",
+            "price": 700,
+            "overall": "76",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "10704",
+            "name": "Salisu",
+            "price": 900,
+            "overall": "76",
+            "sugBuy": 550,
+            "sugSell": 850
+        },
+        {
+            "id": "10822",
+            "name": "Todibo",
+            "price": 650,
+            "overall": "76",
+            "sugBuy": 350,
+            "sugSell": 750
         },
         {
             "id": "10832",
             "name": "Kumbulla",
-            "price": 650,
+            "price": 750,
             "overall": "75",
-            "sugBuy": 400,
-            "sugSell": 650
+            "sugBuy": 450,
+            "sugSell": 750
         },
         {
             "id": "10966",
             "name": "V\u00edtor Tormena",
-            "price": 650,
+            "price": 700,
             "overall": "75",
-            "sugBuy": 400,
-            "sugSell": 650
+            "sugBuy": 450,
+            "sugSell": 750
         },
         {
             "id": "11160",
             "name": "Pieper",
-            "price": 650,
+            "price": 700,
             "overall": "75",
-            "sugBuy": 400,
-            "sugSell": 650
+            "sugBuy": 450,
+            "sugSell": 750
         },
         {
             "id": "11238",
             "name": "Hancko",
             "price": 700,
             "overall": "75",
-            "sugBuy": 400,
-            "sugSell": 650
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "11997",
+            "name": "Bradari\u0107",
+            "price": 700,
+            "overall": "75",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "12281",
+            "name": "Araujo",
+            "price": 700,
+            "overall": "77",
+            "sugBuy": 450,
+            "sugSell": 750
         },
         {
             "id": "13860",
             "name": "Mingueza",
-            "price": 800,
+            "price": 700,
             "overall": "75",
-            "sugBuy": 500,
+            "sugBuy": 450,
             "sugSell": 750
         },
         {
-            "id": "19497",
-            "name": "Szalai",
-            "price": 650,
+            "id": "14304",
+            "name": "Erkin",
+            "price": 750,
+            "overall": "76",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "855",
+            "name": "Ayrton",
+            "price": 700,
             "overall": "75",
-            "sugBuy": 400,
-            "sugSell": 650
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "5312",
+            "name": "Hoedt",
+            "price": 700,
+            "overall": "75",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "21616",
+            "name": "Erkin",
+            "price": 0,
+            "overall": "76",
+            "sugBuy": 350,
+            "sugSell": 750
+        },
+        {
+            "id": "3612",
+            "name": "Lu\u00eds Neto",
+            "price": 750,
+            "overall": "77",
+            "sugBuy": 450,
+            "sugSell": 750
+        },
+        {
+            "id": "3700",
+            "name": "Mendy",
+            "price": 4900,
+            "overall": "79",
+            "sugBuy": 700,
+            "sugSell": 4500
         }
     ]
 }
