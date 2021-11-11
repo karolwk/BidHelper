@@ -11,6 +11,7 @@ from bs4 import BeautifulSoup, element
 Scraping futbin for player data
 """
 session = HTMLSession()
+DEFAULT_JSON_FILE = "players_data.json"
 pages = [] # List of pages to scrap
 domain = "https://www.futbin.com/players?page=" # domain for scraping
 players_dict = {'players': []} # dictionary with players ready for JSON conversion
@@ -45,18 +46,24 @@ def get_pages(pages):
             pages.append(n.rstrip())
 
 
-def save_json(dict_, file_name="players_data.json"):
+def save_json(dict_, file_name=DEFAULT_JSON_FILE):
     #Serializing to json
     json_object = json.dumps(dict_, indent = 4)
     with open(file_name, "w") as outfile:
         outfile.write(json_object)
 
-def open_json(file_name="players_data.json"):
+def open_json(file_name=DEFAULT_JSON_FILE):
     """Open and convert JSON to dict"""
     with open(file_name, "r") as infile:
         dict_ = infile.read()
     return json.loads(dict_)
     
+
+def update_players(fixed= False, json_file=DEFAULT_JSON_FILE):
+    """Updates prices for players and save to JSON"""
+    players_dict = open_json(json_file) 
+    update_optimal_prices(players_dict, fixed)
+    save_json(players_dict, json_file)
 
    
 def get_player_data(soup, tag, tag_class =""):
@@ -115,13 +122,22 @@ def set_price(response, price) -> int:
 
 def set_buy_price(price) -> int:
     """Sets suggested buing price"""
-    if price < 750:
-        return 400
-    elif price < 900:
-        return 500
-    elif price < 1500:
-        return 600
-    return 750
+    if price < 700:
+        return 350 # 350 default
+    elif price < 860:
+        return 450 # 400 default
+    elif price < 1200:
+        return 550 # 500 default
+    elif price < 1700:
+        return 650 # 600 default
+    return 700
+
+def set_fixed_sell_price(price):
+    """In case market is on fire set minimum selling price"""
+    if price < 850:
+        return 750
+    else:
+        return set_sell_price(price)
 
 
 def set_sell_price(price) -> int:
@@ -132,11 +148,16 @@ def set_sell_price(price) -> int:
     return new_price - 100
 
 
-def update_optimal_prices(dict_):
+def update_optimal_prices(dict_, fixed = False):
     """Updates dictionaries prices for sell and buy"""    
+  
     for player in dict_['players']:
         player['sugBuy'] = set_buy_price(player['price'])
-        player['sugSell'] = set_sell_price(player['price'])
+        if fixed:
+            player['sugSell'] = set_fixed_sell_price(player['price'])
+        else:
+            player['sugSell'] = set_sell_price(player['price'])
+
 
 
 
@@ -174,7 +195,7 @@ def scrap_player_page(url, times=3, seconds=10):
             player["id"] = id[0].attrs['data-player-id']
             player["name"] = r.html.find('.pcdisplay-name', first=True).text    
             player["overall"] = r.html.find('.pcdisplay-rat', first=True).text
-            price = r.html.find('#pc-lowest-2', first=True).text.replace(",","")
+            price = r.html.find('#pc-lowest-1', first=True).text.replace(",","")
             if price == "-": # Sometimes page don't load properly so we want to try again
                 time.sleep(seconds)
                 continue
@@ -186,25 +207,29 @@ def scrap_player_page(url, times=3, seconds=10):
 
 
 
-def main():
-    get_pages(pages)
-    scraped_pages = list_of_profiles(pages)
-    num = 1
-    for link in scraped_pages:
-        try:
-            players_dict["players"].append(scrap_player_page(link))
-        except Exception as e: print(e)
+# def main():
+#     start_time = time.time()   
 
-        printProgressBar(num, len(scraped_pages), prefix = f'Progres w budowaniu slownika:', suffix = 'wszystkich wpisów', length = 50)
-        num += 1
-    update_optimal_prices(players_dict)
-    save_json(players_dict)
+#     get_pages(pages)
+#     scraped_pages = list_of_profiles(pages)
+#     num = 1
+#     for link in scraped_pages:
+#         try:
+#             players_dict["players"].append(scrap_player_page(link))
+#         except Exception as e: print(e)
 
-
-if __name__ == '__main__':
-    main()
-
-
+#         printProgressBar(num, len(scraped_pages), prefix = f'Progres w budowaniu slownika:', suffix = 'wszystkich wpisów', length = 50)
+#         num += 1
+#     update_optimal_prices(players_dict)
+#     save_json(players_dict)
+#     end_time = time.time() - start_time
+#     print(f'It took {end_time:.2f} seconds to execute.')
 
 
+# if __name__ == '__main__':
+#     main()
+
+
+
+update_players(True)
     

@@ -11,11 +11,11 @@ let goInterval, correctPrice; // Intervals
 
 let bid;
 
-let header, navBarek, actualPlayer, actualOveral;
+let header, oppInput, actualPlayer, actualOveral, desiredValueInp;
 
 const url = 'http://localhost:8000/players_data.json'; // URL with JSON that contains player data, can be local or remote.
 
-let players; // Object with players
+let players; // Object with players dictionary
 
 async function fetchData() {
   //Handles JSON file from local or remote server.
@@ -40,6 +40,55 @@ async function fetchData() {
   }
 
 }
+
+function addStar(checkbox, header, times = 1) {
+  //Takes refrence of checkbox and string to add star
+  if (checkbox.checked) {
+    if (!header.classList.contains("ON")) {
+      header.classList.toggle("ON");
+      for (let i = 0; i < times; i++) {
+        header.textContent += " ★ ";
+      };
+    }
+  }
+
+};
+
+
+
+function highlightPlayer(players, value) {
+  //Highlights players over certin price
+
+  if (players) {
+
+    if (oppInput.checked) { // Check if checkbox is checked
+
+      const allEntities = document.querySelectorAll('.entityContainer');
+      const list = players['players'];
+
+      allEntities.forEach(function (cNode) {
+        for (let i = 0; i < list.length; i++) {
+          const playerName = cNode.childNodes[1];
+          if (list[i]['name'] === playerName.textContent) {
+            if (list[i]['price'] >= value) {
+              addStar(oppInput, playerName);
+
+
+            }            
+          }
+
+        }
+    
+
+      });
+
+    }
+  }
+
+
+
+}
+
 
 function getOptimalPrice(player, overall, playersList, buy) {
   // Check if player card is in the array and return apropriet price. If it not change get default from header input.
@@ -68,8 +117,6 @@ function getOptimalPrice(player, overall, playersList, buy) {
 
     return Number(headerInput.value); // If player not found get value from header
 
-
-
   }
 }
 
@@ -77,13 +124,14 @@ function buyOrSell() {
   // Checks headline to determine what to do
   const bidButton = document.querySelector(".bidButton");
   const searchResult = document.querySelector('.title');
-  // If we have a bidButton we defnitly have a auction
-  if (bidButton) { 
-    return True
+  // If we have a bidButton we definitely have an auction
+  if (bidButton) {
+    return true;
   };
-  if (searchResult.textContent === "LISTA TRANSFEROWA" || searchResult.textContent === "Obserwowane"){
-    return False
+  if (searchResult.textContent === "LISTA TRANSFEROWA" || searchResult.textContent === "Obserwowane") {
+    return false;
   }
+  return null;
 
 }
 
@@ -91,15 +139,13 @@ function setCurrentCard() {
   //  Set values from curent selected card and inserts price to input fields.
   actualPlayer = document.querySelector('.tns-item.tns-slide-active').childNodes[0].childNodes[4].textContent; // Nazwa na karcie
   actualOveral = document.querySelector('.tns-item.tns-slide-active').childNodes[0].childNodes[7].childNodes[1].childNodes[0].textContent // Overall na karcie
-  
-  let action = buyOrSell()
-  if ( action !== null){
+
+
+  let action = buyOrSell();
+  if (action !== null) {
     bid = getOptimalPrice(actualPlayer, actualOveral, players, action);
     changeInput(bid);
   }
- 
-
-
 
 }
 
@@ -138,12 +184,18 @@ function changeInput(bid_) {
 
 setTimeout(function () {
 
-
+  // Creating interface
   headerInput = document.createElement('input');
   btnStartStop = document.createElement('button');
   btnOptimal = document.createElement('button');
   btnStartStop.textContent = "START";
   btnStartStop.style.backgroundColor = 'green';
+  oppInput = document.createElement('input');
+  oppInput.type = "checkbox";
+  desiredValueInp = document.createElement('input');
+  desiredValueInp.value = 0;
+
+
   bid = Number(headerInput.value);
 
 
@@ -153,7 +205,6 @@ setTimeout(function () {
       goInterval = setInterval(function () {
         bid = Number(headerInput.value);
         changeInput(bid);
-        console.log("DZIAŁA KURWA");
       }, 500);
       btnStartStop.textContent = "STOP"
       btnStartStop.style.backgroundColor = 'red';
@@ -162,11 +213,7 @@ setTimeout(function () {
       clearInterval(goInterval);
       btnStartStop.textContent = "START"
       btnStartStop.style.backgroundColor = 'green';
-
-
     }
-
-
 
   });
 
@@ -177,6 +224,7 @@ setTimeout(function () {
     if (btnState === "START") {
       correctPrice = setInterval(function () {
         setCurrentCard();
+        highlightPlayer(players, desiredValueInp.value);
       }, 500);
       btnOptimal.textContent = "STOP"
       btnOptimal.style.backgroundColor = 'red';
@@ -193,15 +241,17 @@ setTimeout(function () {
 
 
   header = document.querySelector('.ut-fifa-header-view');
-  navBarek = document.querySelector('.ut-navigation-bar-view');
-  
-
-  header.append(" Wpisz cenę do zakupu/sprzedaży ");
+  header.append("  Cena stała  ");
   header.append(headerInput);
   headerInput.value = 450;
   header.append(btnStartStop);
   header.append("   Optymalna cena?   ");
   header.append(btnOptimal);
+  header.append("   Zaznaczać okazje?   ");
+  header.append(oppInput);
+  header.append("   Wpisz minimalną szukaną wartość   ");
+  header.append(desiredValueInp);
+  
 
 
 }, 10000);
